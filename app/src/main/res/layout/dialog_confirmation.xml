@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_card_background"
+    android:padding="24dp">
+
+    <!-- Dialog Icon -->
+    <ImageView
+        android:id="@+id/ivDialogIcon"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:src="@drawable/ic_warning"
+        android:contentDescription="@string/warning_icon_desc"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <!-- Dialog Title -->
+    <TextView
+        android:id="@+id/tvDialogTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmation_title"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_light"
+        android:textAlignment="center"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Dialog Message -->
+    <TextView
+        android:id="@+id/tvDialogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/confirmation_message"
+        android:textSize="16sp"
+        android:textColor="@color/text_medium"
+        android:textAlignment="center"
+        android:layout_marginBottom="24dp" />
+
+    <!-- Action Buttons -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/cancel_button"
+            android:textColor="@color/text_medium"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/dark_background_secondary"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/confirm_button"
+            android:textColor="@color/button_text_light"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/accent_red"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

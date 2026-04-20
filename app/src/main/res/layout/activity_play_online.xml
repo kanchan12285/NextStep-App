@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:orientation="vertical" android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvMatchStatus"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Looking for an opponent..." android:textSize="18sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:paddingTop="16dp">
+
+        <TextView android:id="@+id/tvYou"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="You" android:textSize="16sp"/>
+
+        <TextView android:id="@+id/tvOpponent"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="Opponent" android:textSize="16sp"
+            android:textAlignment="viewEnd"/>
+    </LinearLayout>
+
+    <!-- NEW: Find opponent -->
+    <Button
+        android:id="@+id/btnFindOpponent"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Find Opponent" android:layout_marginTop="24dp"/>
+
+    <Button
+        android:id="@+id/btnCancelSearch"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="Cancel" android:layout_marginTop="12dp"/>
+</LinearLayout>

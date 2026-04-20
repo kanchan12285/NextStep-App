@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_card_background"
+    android:padding="16dp"
+    android:layout_marginBottom="16dp">
+
+    <!-- Scenario description -->
+    <TextView
+        android:id="@+id/tvScenarioDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/market_scenario_placeholder"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_light"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Market Data -->
+    <TextView
+        android:id="@+id/tvMarketData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="• Market data will appear here"
+        android:textSize="14sp"
+        android:textColor="@color/text_medium"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Options Container -->
+    <LinearLayout
+        android:id="@+id/llOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" />
+
+</LinearLayout>

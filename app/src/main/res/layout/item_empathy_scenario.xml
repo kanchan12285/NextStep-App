@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_card_background"
+    android:padding="16dp"
+    android:layout_margin="8dp">
+
+    <!-- Scenario Title -->
+    <TextView
+        android:id="@+id/tvScenarioTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/empathy_scenario_title_item"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_light"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Scenario Description -->
+    <TextView
+        android:id="@+id/tvScenarioDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/empathy_scenario_description_placeholder"
+        android:textSize="14sp"
+        android:textColor="@color/text_medium"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Difficulty Level -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empathy_level_label"
+            android:textSize="12sp"
+            android:textColor="@color/text_medium"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:id="@+id/tvEmpathyLevel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/empathy_level_placeholder"
+            android:textSize="12sp"
+            android:textColor="@color/text_light"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/accent_purple"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/neonBackground"
+    android:padding="24dp"
+    android:gravity="center">
+
+    <!-- App Logo -->
+    <ImageView
+        android:id="@+id/ivAppLogo"
+        android:src="@drawable/app_logo"
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="12dp"
+        android:contentDescription="@string/app_logo_desc" />
+
+    <!-- Welcome Text -->
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="6dp"
+        android:gravity="center"
+        android:text="@string/welcome_to_nextstep"
+        android:textColor="@color/neonPink"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        style="@style/NeonHeadingText" />
+
+    <!-- Page Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:text="@string/create_your_profile"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/neonAccent"
+        android:gravity="center"
+        android:layout_marginBottom="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/NeonSubheadingText" />
+
+    <!-- Avatar Picker Row -->
+    <LinearLayout
+        android:id="@+id/avatarPicker"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp">
+
+        <!-- Repeat for each avatar, use selector for border highlight -->
+        <ImageView
+            android:id="@+id/avatar1"
+            android:src="@drawable/avatar_1"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/avatar_selector_background"
+            android:contentDescription="@string/avatar_1_desc"/>
+
+        <ImageView
+            android:id="@+id/avatar2"
+            android:src="@drawable/avatar_2"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/avatar_selector_background"
+            android:contentDescription="@string/avatar_2_desc"/>
+
+        <ImageView
+            android:id="@+id/avatar3"
+            android:src="@drawable/avatar_3"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/avatar_selector_background"
+            android:contentDescription="@string/avatar_3_desc"/>
+
+        <ImageView
+            android:id="@+id/avatar4"
+            android:src="@drawable/avatar_4"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/avatar_selector_background"
+            android:contentDescription="@string/avatar_4_desc"/>
+
+        <ImageView
+            android:id="@+id/avatar5"
+            android:src="@drawable/avatar_5"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="4dp"
+            android:background="@drawable/avatar_selector_background"
+            android:contentDescription="@string/avatar_5_desc"/>
+    </LinearLayout>
+
+    <!-- Show Selected Avatar Preview -->
+    <TextView
+        android:id="@+id/tvSelectedAvatarLabel"
+        android:text="@string/selected_avatar"
+        android:textSize="16sp"
+        android:textColor="@color/neonPink"
+        android:gravity="center"
+        android:layout_marginBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/NeonCaptionText" />
+
+    <ImageView
+        android:id="@+id/imgCurrentAvatar"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="10dp"
+        android:src="@drawable/avatar_1" />
+
+    <!-- Name Input -->
+    <EditText
+        android:id="@+id/etFullName"
+        android:hint="@string/full_name_hint"
+        android:textColor="@color/background_tertiary"
+        android:textColorHint="@color/button_primary"
+        style="@style/NeonInputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_editttext_background"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp"
+        android:inputType="textPersonName" />
+
+    <!-- Age Input -->
+    <EditText
+        android:id="@+id/etAge"
+        android:hint="@string/age_hint"
+        android:textColor="@color/background_tertiary"
+        android:textColorHint="@color/button_primary"
+        style="@style/NeonInputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_editttext_background"
+        android:padding="12dp"
+        android:textSize="16sp"
+        android:layout_marginBottom="16dp"
+        android:inputType="number" />
+
+    <!-- Create Profile Button -->
+    <Button
+        android:id="@+id/btnCreateProfile"
+        android:text="@string/create_profile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/neonPink"
+        android:textColor="@color/neonTextContrast"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        style="@style/NeonButtonText"
+        android:layout_marginTop="8dp"/>
+</LinearLayout>

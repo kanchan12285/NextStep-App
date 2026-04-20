@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Neon Gaming Colors -->
+    <color name="accent_orange">#FF9800</color>
+    <color name="primary_dark">#1A0D2E</color>
+    <color name="primary_medium">#2D1B69</color>
+    <color name="primary_light">#4A2C85</color>
+    <color name="neon_pink">#FF1493</color>
+    <color name="neon_purple">#BF40BF</color>
+    <color name="correct_green">#4CAF50</color> <!-- Green for correct -->
+    <color name="neon_start">#FF9B00FF</color>   <!-- sample violet -->
+    <color name="neon_end">#FFFF007A</color>     <!-- sample magenta -->
+    <!-- Optional shared colors already used elsewhere -->
+    <color name="neon_cyan">#00FFFF</color>
+    <color name="neon_blue">#0080FF</color>
+    <color name="background_primary">#0F0F23</color>
+    <color name="background_secondary">#1A0D2E</color>
+    <color name="background_tertiary">#2D1B69</color>
+    <color name="text_primary">#FFFFFF</color>
+    <color name="text_secondary">#E0E0E0</color>
+    <color name="button_primary">#FF1493</color>
+    <color name="button_text">#FFFFFF</color>
+    <color name="success_neon">#00FF7F</color>
+    <color name="error_neon">#FF073A</color>
+    <color name="warning_neon">#FFD700</color>
+    <color name="card_border">#FF1493</color>
+    <color name="progress_bar">#BF40BF</color>
+
+    <!-- ADDED: Missing colors from errors -->
+    <color name="border_dark">#4A2C85</color>
+    <color name="accent_red">#FF073A</color>
+    <color name="nav_item_color">#FF1493</color>
+
+    <!-- Additional missing colors -->
+    <color name="dark_background_primary">#0F0F23</color>
+    <color name="dark_background_secondary">#1A0D2E</color>
+    <color name="accent_magenta">#FF1493</color>
+    <color name="accent_pink">#FF4FB6</color>
+    <color name="progress_track_dark">#3A2B50</color>
+    <color name="neonBackground">#181627</color>
+    <color name="neonPink">#FF00D8</color>
+    <color name="neonAccent">#00FFF7</color>
+    <color name="neonText">#FFFFFF</color>
+    <color name="neonTextContrast">#181627</color>
+    <color name="neonTextHint">#80fff7</color>
+
+    <!-- Keep existing names for compatibility -->
+    <color name="colorPrimary">#FF1493</color>
+    <color name="colorPrimaryDark">#1A0D2E</color>
+    <color name="colorAccent">#BF40BF</color>
+    <color name="text_light">#FFFFFF</color>
+    <color name="text_medium">#E0E0E0</color>
+    <color name="text_hint">#A0A0A0</color>
+    <color name="success_green">#00FF7F</color>
+    <color name="error_red">#FF073A</color>
+    <color name="accent_blue">#FF1493</color>
+    <color name="accent_green">#00FF7F</color>
+    <color name="accent_purple">#BF40BF</color>
+    <color name="button_text_light">#FFFFFF</color>
+</resources>

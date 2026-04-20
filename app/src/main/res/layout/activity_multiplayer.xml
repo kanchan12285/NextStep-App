@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_background_primary"
+    tools:context=".MultiplayerActivity">
+
+    <!-- Top Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@color/dark_background_secondary">
+
+        <ImageView
+            android:id="@+id/ivBackArrow"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:src="@drawable/ic_back_arrow"
+            app:tint="@color/text_light"
+            android:contentDescription="@string/back_button_desc"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:id="@+id/tvModeTitle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/multiplayer_title"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_light"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+    <!-- Room Selection -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_or_join_room"
+            android:textSize="18sp"
+            android:textColor="@color/text_medium"
+            android:textAlignment="center"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Create Room Button -->
+        <Button
+            android:id="@+id/btnCreateRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/create_room_button"
+            android:textColor="@color/button_text_light"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/accent_green"
+            android:paddingVertical="16dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Join Room Section -->
+        <EditText
+            android:id="@+id/etRoomCode"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:hint="@string/enter_room_code_hint"
+            android:textColorHint="@color/text_medium"
+            android:textColor="@color/text_light"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"
+            android:background="@drawable/rounded_edittext_background"
+            android:inputType="textCapCharacters"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnJoinRoom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/join_room_button"
+            android:textColor="@color/button_text_light"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/accent_blue"
+            android:paddingVertical="16dp" />
+    </LinearLayout>
+
+    <!-- Players List -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/players_in_room"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_light"
+        android:padding="16dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvPlayersList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp" />
+
+    <!-- Start Game Button -->
+    <Button
+        android:id="@+id/btnStartMultiplayerGame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="@string/start_multiplayer_game"
+        android:textColor="@color/button_text_light"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:background="@drawable/rounded_button_background"
+        android:backgroundTint="@color/accent_purple"
+        android:paddingVertical="16dp"
+        android:visibility="gone" />
+</LinearLayout>

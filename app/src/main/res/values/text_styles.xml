@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Neon Gaming Theme Text Styles -->
+    <style name="NeonTitleText">
+        <item name="android:textColor">@color/neon_pink</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+    <style name="NeonHeadingText">
+        <item name="android:textSize">32sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/neonPink</item>
+    </style>
+    <style name="NeonSubheadingText">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/neonAccent</item>
+    </style>
+    <style name="NeonButtonText">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/neonTextContrast</item>
+        <item name="android:backgroundTint">@color/neonPink</item>
+    </style>
+    <style name="NeonInputText">
+        <item name="android:textColor">@color/neonText</item>
+        <item name="android:textColorHint">@color/neonTextHint</item>
+    </style>
+    <style name="NeonCaptionText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/neonPink</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+
+    <style name="NeonSubtitleText">
+        <item name="android:textColor">@color/neon_purple</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="NeonBodyText">
+        <item name="android:textColor">@color/text_primary</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="GameScoreText">
+        <item name="android:textColor">@color/success_neon</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="GameTimerText">
+        <item name="android:textColor">@color/warning_neon</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">sans-serif-condensed</item>
+    </style>
+
+    <style name="GameFeedbackText">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">8dp</item>
+        <item name="android:layout_margin">8dp</item>
+    </style>
+
+    <style name="NeonMenuButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">60dp</item>
+        <item name="android:background">@drawable/neon_button_background</item>
+        <item name="android:textColor">@color/button_text</item>
+        <item name="android:textSize">18sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:elevation">12dp</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="NeonSecondaryButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/neon_button_background</item>
+        <item name="android:textColor">@color/neon_cyan</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:padding">12dp</item>
+        <item name="android:layout_margin">4dp</item>
+        <item name="android:elevation">6dp</item>
+    </style>
+</resources>

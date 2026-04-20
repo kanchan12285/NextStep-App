@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_primary"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="❓ Help &amp; FAQ"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="@color/neon_pink"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Find answers to frequently asked questions about NextStep Gaming"
+            android:textSize="16sp"
+            android:textColor="@color/text_secondary"
+            android:gravity="center"
+            android:layout_marginBottom="32dp" />
+
+        <LinearLayout
+            android:id="@+id/llFaqContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="32dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="📞 Need More Help?"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@color/neon_purple"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnContactUs"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="📧 Contact Support"
+            android:textColor="@color/button_text"
+            android:background="@drawable/rounded_button_background"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnBackToHome"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="🏠 Back to Home"
+            android:textColor="@color/button_text"
+            android:background="@drawable/rounded_button_background"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

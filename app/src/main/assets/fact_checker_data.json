@@ -1,0 +1,272 @@
+[
+  {
+    "levelId": "fc_easy_1",
+    "statement": "The Great Wall of China is visible from space.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 2, "accuracy": 1}
+  },
+  {
+    "levelId": "fc_easy_2",
+    "statement": "Water boils at 100°C at sea level.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 1}
+  },
+  {
+    "levelId": "fc_easy_3",
+    "statement": "The Earth is flat.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 1}
+  },
+  {
+    "levelId": "fc_easy_4",
+    "statement": "Birds are mammals.",
+    "isFact": false,
+    "traitImpact": {"accuracy": 1}
+  },
+  {
+    "levelId": "fc_easy_5",
+    "statement": "Paris is the capital of France.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 1}
+  },
+  {
+    "levelId": "fc_easy_6",
+    "statement": "Bananas grow on trees.",
+    "isFact": false,
+    "traitImpact": {"accuracy": 1}
+  },
+  {
+    "levelId": "fc_easy_7",
+    "statement": "Sharks are fish.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 1}
+  },
+  {
+    "levelId": "fc_easy_8",
+    "statement": "The sun rises in the west.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 1}
+  },
+  {
+    "levelId": "fc_easy_9",
+    "statement": "Oxygen is needed for humans to live.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 1}
+  },
+  {
+    "levelId": "fc_easy_10",
+    "statement": "An octopus has three hearts.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 2}
+  },
+  {
+    "levelId": "fc_medium_1",
+    "statement": "Humans use only 10% of their brain.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 3, "accuracy": 2}
+  },
+  {
+    "levelId": "fc_medium_2",
+    "statement": "Chameleons change color only to blend in.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 2, "accuracy": 3}
+  },
+  {
+    "levelId": "fc_medium_3",
+    "statement": "Lightning never hits the same place twice.",
+    "isFact": false,
+    "traitImpact": {"accuracy": 2}
+  },
+  {
+    "levelId": "fc_medium_4",
+    "statement": "The 5-second rule for food is true.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 3}
+  },
+  {
+    "levelId": "fc_medium_5",
+    "statement": "The shortest war lasted about 40 minutes.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 3}
+  },
+  {
+    "levelId": "fc_medium_6",
+    "statement": "Goldfish have a 3-second memory.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 2}
+  },
+  {
+    "levelId": "fc_medium_7",
+    "statement": "Tomatoes are fruits.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 2}
+  },
+  {
+    "levelId": "fc_medium_8",
+    "statement": "Bats are blind.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 2}
+  },
+  {
+    "levelId": "fc_medium_9",
+    "statement": "Mount Everest is the tallest mountain on Earth.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 2}
+  },
+  {
+    "levelId": "fc_medium_10",
+    "statement": "The human body has 206 bones.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 2}
+  },
+  {
+    "levelId": "fc_hard_1",
+    "statement": "Napoleon was very short.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 4, "accuracy": 4}
+  },
+  {
+    "levelId": "fc_hard_2",
+    "statement": "The common cold is caused by cold weather.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 4, "accuracy": 4}
+  },
+  {
+    "levelId": "fc_hard_3",
+    "statement": "Marie Antoinette said 'Let them eat cake.'",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 5, "accuracy": 4}
+  },
+  {
+    "levelId": "fc_hard_4",
+    "statement": "People swallow 8 spiders a year in sleep.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 5, "accuracy": 5}
+  },
+  {
+    "levelId": "fc_hard_5",
+    "statement": "The first computer programmer was a woman.",
+    "isFact": true,
+    "traitImpact": {"critical_thinking": 4, "accuracy": 4}
+  },
+  {
+    "levelId": "fc_hard_6",
+    "statement": "Humans have more than five senses.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 3, "critical_thinking": 3}
+  },
+  {
+    "levelId": "fc_hard_7",
+    "statement": "Vikings wore horned helmets.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 4, "accuracy": 3}
+  },
+  {
+    "levelId": "fc_hard_8",
+    "statement": "Albert Einstein failed math as a child.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 4, "accuracy": 3}
+  },
+  {
+    "levelId": "fc_hard_9",
+    "statement": "Diamonds are made of carbon.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 3}
+  },
+  {
+    "levelId": "fc_hard_10",
+    "statement": "Penguins live in the Arctic.",
+    "isFact": false,
+    "traitImpact": {"accuracy": 3}
+  },
+  {
+    "levelId": "fc_extra_1",
+    "statement": "Sound travels faster in water than in air.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 2}
+  },
+  {
+    "levelId": "fc_extra_2",
+    "statement": "The Amazon is the longest river.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 2}
+  },
+  {
+    "levelId": "fc_extra_3",
+    "statement": "Saturn is the only planet with rings.",
+    "isFact": false,
+    "traitImpact": {"accuracy": 2}
+  },
+  {
+    "levelId": "fc_extra_4",
+    "statement": "Pluto is still a planet.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 2}
+  },
+  {
+    "levelId": "fc_extra_5",
+    "statement": "Water covers about 70% of Earth.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 2}
+  },
+  {
+    "levelId": "fc_extra_6",
+    "statement": "Sloths can hold their breath longer than dolphins.",
+    "isFact": true,
+    "traitImpact": {"critical_thinking": 3}
+  },
+  {
+    "levelId": "fc_extra_7",
+    "statement": "An ostrich eye is bigger than its brain.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 3}
+  },
+  {
+    "levelId": "fc_extra_8",
+    "statement": "All deserts are hot.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 2}
+  },
+  {
+    "levelId": "fc_extra_9",
+    "statement": "Honey never spoils.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 3}
+  },
+  {
+    "levelId": "fc_extra_10",
+    "statement": "Venus is the hottest planet.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 3}
+  },
+  {
+    "levelId": "fc_extra_11",
+    "statement": "Bulls get angry when they see red.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 3}
+  },
+  {
+    "levelId": "fc_extra_12",
+    "statement": "Shakespeare wrote Hamlet.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 2}
+  },
+  {
+    "levelId": "fc_extra_13",
+    "statement": "The Moon has its own light.",
+    "isFact": false,
+    "traitImpact": {"accuracy": 2}
+  },
+  {
+    "levelId": "fc_extra_14",
+    "statement": "Water is made of hydrogen and oxygen.",
+    "isFact": true,
+    "traitImpact": {"accuracy": 2}
+  },
+  {
+    "levelId": "fc_extra_15",
+    "statement": "Humans and dinosaurs lived together.",
+    "isFact": false,
+    "traitImpact": {"critical_thinking": 3}
+  }
+]

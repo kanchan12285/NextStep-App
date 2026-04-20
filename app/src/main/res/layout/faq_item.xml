@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_card_background"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Question Header -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvQuestion"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/faq_question_placeholder"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_light" />
+
+        <ImageView
+            android:id="@+id/ivExpandIcon"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:src="@drawable/ic_expand_more"
+            android:contentDescription="@string/expand_faq_desc"
+            android:layout_marginStart="8dp" />
+
+    </LinearLayout>
+
+    <!-- Answer (Initially Hidden) -->
+    <TextView
+        android:id="@+id/tvAnswer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/faq_answer_placeholder"
+        android:textSize="14sp"
+        android:textColor="@color/text_medium"
+        android:layout_marginTop="12dp"
+        android:visibility="gone" />
+
+    <!-- Category Tag -->
+    <TextView
+        android:id="@+id/tvCategory"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/faq_category_placeholder"
+        android:textSize="10sp"
+        android:textColor="@color/text_light"
+        android:background="@drawable/rounded_button_background"
+        android:backgroundTint="@color/accent_purple"
+        android:paddingHorizontal="6dp"
+        android:paddingVertical="2dp"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

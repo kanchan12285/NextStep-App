@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/dark_background_primary"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Timer and Score Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/tvTimer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Time: 30s"
+                android:textSize="24sp"
+                android:textColor="@color/neon_pink"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Score: 0"
+                android:textSize="24sp"
+                android:textColor="@color/neon_blue"
+                android:textStyle="bold"
+                android:gravity="end" />
+        </LinearLayout>
+
+        <!-- Instructions -->
+        <TextView
+            android:id="@+id/tvInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_symptom_matcher"
+            android:textSize="18sp"
+            android:textColor="@color/text_medium"
+            android:textAlignment="center"
+            android:layout_marginBottom="32dp" />
+
+        <!-- Feedback Text -->
+        <TextView
+            android:id="@+id/tvFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="22sp"
+            android:textColor="@color/error_red"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone" />
+
+        <!-- Challenge Content -->
+        <LinearLayout
+            android:id="@+id/llChallengeContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/rounded_card_background"
+            android:padding="16dp"
+            android:layout_marginBottom="32dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvPatientCase"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/patient_case_placeholder"
+                android:textSize="16sp"
+                android:textColor="@color/text_light"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms_list_label"
+                android:textSize="14sp"
+                android:textColor="@color/text_medium"
+                android:textStyle="italic"
+                android:layout_marginBottom="16dp" />
+
+            <TextView
+                android:id="@+id/tvSymptomsList"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/symptoms_placeholder"
+                android:textSize="14sp"
+                android:textColor="@color/accent_red"
+                android:background="@drawable/rounded_edittext_background"
+                android:padding="12dp"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/diagnosis_question"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:textColor="@color/text_medium"
+                android:layout_marginBottom="16dp"
+                android:gravity="center" />
+
+            <LinearLayout
+                android:id="@+id/llDiagnosisOptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!-- Diagnosis options buttons dynamically added here -->
+            </LinearLayout>
+        </LinearLayout>
+
+        <!-- Start Game Button -->
+        <Button
+            android:id="@+id/btnStartGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_game"
+            android:textSize="18sp"
+            android:textColor="@color/button_text_light"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/accent_green"
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Back to Dashboard Button -->
+        <Button
+            android:id="@+id/btnBackToDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back_to_dashboard"
+            android:textSize="16sp"
+            android:textColor="@color/text_medium"
+            android:background="@android:color/transparent"
+            android:padding="8dp" />
+
+    </LinearLayout>
+</ScrollView>

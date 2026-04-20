@@ -1,0 +1,302 @@
+[
+  {
+    "id": "python_easy_1",
+    "language": "Python",
+    "description": "Fix missing parenthesis in print.",
+    "buggyCode": "print 'Hello'",
+    "correctFix": "print('Hello')",
+    "options": ["print('Hello')", "print 'Hello'", "echo('Hello')", "print(Hello)"],
+    "bugExplanation": "Python 3 requires parentheses in print.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "python_easy_2",
+    "language": "Python",
+    "description": "Correct variable assignment.",
+    "buggyCode": "x == 5",
+    "correctFix": "x = 5",
+    "options": ["x = 5", "x == 5", "x := 5", "let x = 5"],
+    "bugExplanation": "Single = is used for assignment.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "python_easy_3",
+    "language": "Python",
+    "description": "Fix string quotes.",
+    "buggyCode": "s = 'Hello\"",
+    "correctFix": "s = 'Hello'",
+    "options": ["s = 'Hello'", "s = \"Hello", "s = Hello", "s = 'Hello\""],
+    "bugExplanation": "Strings need matching quotes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "python_easy_4",
+    "language": "Python",
+    "description": "Fix syntax for list creation.",
+    "buggyCode": "lst = 1,2,3",
+    "correctFix": "lst = [1,2,3]",
+    "options": ["lst = [1,2,3]", "lst = (1,2,3)", "lst = 1,2,3", "lst = {1,2,3}"],
+    "bugExplanation": "Lists require square brackets.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "python_easy_5",
+    "language": "Python",
+    "description": "Fix missing colon in function.",
+    "buggyCode": "def greet(name)\n  print('Hi' + name)",
+    "correctFix": "def greet(name):\n  print('Hi' + name)",
+    "options": ["def greet(name):", "def greet(name)", "function greet(name):", "def greet name:"],
+    "bugExplanation": "Function definitions need a colon.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "python_medium_1",
+    "language": "Python",
+    "description": "Fix indentation in loop.",
+    "buggyCode": "for i in range(5):\nprint(i)",
+    "correctFix": "for i in range(5):\n    print(i)",
+    "options": ["    print(i)", "  print(i)", "print(i)", "\tprint(i)"],
+    "bugExplanation": "Python requires proper indentation for code blocks.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "python_medium_2",
+    "language": "Python",
+    "description": "Fix missing colon in if statement.",
+    "buggyCode": "if x > 10\n    print(x)",
+    "correctFix": "if x > 10:\n    print(x)",
+    "options": ["if x > 10:", "if x > 10", "if (x > 10)", "if x > 10 then:"],
+    "bugExplanation": "Colons are required after control statements.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "python_medium_3",
+    "language": "Python",
+    "description": "Fix TypeError with int addition.",
+    "buggyCode": "x = '5' + 3",
+    "correctFix": "x = int('5') + 3",
+    "options": ["x = int('5') + 3", "x = '5' + '3'", "x = '5' + 3", "x = int(5) + 3"],
+    "bugExplanation": "Cannot concatenate string and int.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "python_medium_4",
+    "language": "Python",
+    "description": "Fix missing indentation in function.",
+    "buggyCode": "def square(x):\nreturn x*x",
+    "correctFix": "def square(x):\n    return x*x",
+    "options": ["    return x*x", "return x*x", "\treturn x*x", "  return x*x"],
+    "bugExplanation": "Indentation is required inside function blocks.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "python_medium_5",
+    "language": "Python",
+    "description": "Fix invalid variable name.",
+    "buggyCode": "1num = 5",
+    "correctFix": "num1 = 5",
+    "options": ["num1 = 5", "1num = 5", "_1num = 5", "num_1 = 5"],
+    "bugExplanation": "Variable names cannot start with a number.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "python_hard_1",
+    "language": "Python",
+    "description": "Fix function return syntax.",
+    "buggyCode": "def add(a, b)\n    return a+b",
+    "correctFix": "def add(a, b):\n    return a+b",
+    "options": ["def add(a, b):", "def add(a, b)", "function add(a,b):", "def add(a,b) -> a+b:"],
+    "bugExplanation": "Function definitions need a colon.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "python_hard_2",
+    "language": "Python",
+    "description": "Fix dictionary key error.",
+    "buggyCode": "d = {'a':1}\nprint(d['b'])",
+    "correctFix": "print(d.get('b', 0))",
+    "options": ["print(d.get('b',0))", "print(d['b'])", "print(d['a'])", "print(d.b)"],
+    "bugExplanation": "Key 'b' does not exist; use get() to avoid error.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "python_hard_3",
+    "language": "Python",
+    "description": "Fix import error.",
+    "buggyCode": "import Numpy",
+    "correctFix": "import numpy",
+    "options": ["import numpy", "import Numpy", "from numpy import *", "import np"],
+    "bugExplanation": "Module names are lowercase in Python.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "python_hard_4",
+    "language": "Python",
+    "description": "Fix index out of range.",
+    "buggyCode": "lst = [1,2,3]\nprint(lst[3])",
+    "correctFix": "print(lst[2])",
+    "options": ["print(lst[2])", "print(lst[3])", "print(lst[-1])", "print(lst[0])"],
+    "bugExplanation": "List indexing starts from 0; last index is 2.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "python_hard_5",
+    "language": "Python",
+    "description": "Fix undefined variable.",
+    "buggyCode": "print(x)",
+    "correctFix": "x = 0\nprint(x)",
+    "options": ["x = 0\nprint(x)", "print(x)", "x == 0\nprint(x)", "x:0\nprint(x)"],
+    "bugExplanation": "Variable must be defined before use.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "java_easy_1",
+    "language": "Java",
+    "description": "Add missing semicolon.",
+    "buggyCode": "System.out.println('Hi')",
+    "correctFix": "System.out.println('Hi');",
+    "options": ["System.out.println('Hi');", "System.out.println('Hi')", "System.out.println('Hi').", "System.out.println('Hi')/"],
+    "bugExplanation": "Java statements must end with semicolon.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "java_easy_2",
+    "language": "Java",
+    "description": "Fix main method syntax.",
+    "buggyCode": "public static void main(String args[] { }",
+    "correctFix": "public static void main(String[] args) { }",
+    "options": ["public static void main(String[] args) { }", "public static void main(String args[]) { }", "void main(String[] args) { }", "main(String[] args) { }"],
+    "bugExplanation": "Main method needs parentheses and brackets correctly.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "java_easy_3",
+    "language": "Java",
+    "description": "Fix string quotes.",
+    "buggyCode": "String s = 'Hello';",
+    "correctFix": "String s = \"Hello\";",
+    "options": ["String s = \"Hello\";", "String s = 'Hello';", "String s = Hello;", "String s = `Hello`;"],
+    "bugExplanation": "Java strings use double quotes.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "java_easy_4",
+    "language": "Java",
+    "description": "Fix integer division syntax.",
+    "buggyCode": "int x = 10 / 3.0;",
+    "correctFix": "double x = 10 / 3.0;",
+    "options": ["double x = 10 / 3.0;", "int x = 10 / 3;", "int x = 10 / 3.0;", "double x = 10 / 3;"],
+    "bugExplanation": "Integer cannot store decimal values.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "java_easy_5",
+    "language": "Java",
+    "description": "Fix boolean assignment.",
+    "buggyCode": "boolean flag = True;",
+    "correctFix": "boolean flag = true;",
+    "options": ["boolean flag = true;", "boolean flag = True;", "boolean flag = 1;", "boolean flag = FALSE;"],
+    "bugExplanation": "Java uses lowercase true/false.",
+    "difficulty": "easy"
+  },
+  {
+    "id": "java_medium_1",
+    "language": "Java",
+    "description": "Fix class declaration.",
+    "buggyCode": "pubic class Test { }",
+    "correctFix": "public class Test { }",
+    "options": ["public class Test { }", "pubic class Test { }", "class Test { }", "Public class Test { }"],
+    "bugExplanation": "Keyword 'public' was misspelled.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "java_medium_2",
+    "language": "Java",
+    "description": "Fix string concatenation.",
+    "buggyCode": "String msg = 'Hello' + 5",
+    "correctFix": "String msg = \"Hello\" + 5;",
+    "options": ["String msg = \"Hello\" + 5;", "String msg = 'Hello' + 5;", "String msg = \"Hello\" 5;", "String msg = Hello + 5;"],
+    "bugExplanation": "Java strings require double quotes.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "java_medium_3",
+    "language": "Java",
+    "description": "Fix array initialization.",
+    "buggyCode": "int arr[3] = {1,2,3};",
+    "correctFix": "int[] arr = {1,2,3};",
+    "options": ["int[] arr = {1,2,3};", "int arr[3] = {1,2,3};", "int arr = {1,2,3};", "array arr = {1,2,3};"],
+    "bugExplanation": "Java arrays require [] after type.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "java_medium_4",
+    "language": "Java",
+    "description": "Fix method call syntax.",
+    "buggyCode": "System.out.println 'Hi';",
+    "correctFix": "System.out.println('Hi');",
+    "options": ["System.out.println('Hi');", "System.out.println 'Hi';", "System.out.print('Hi');", "println('Hi');"],
+    "bugExplanation": "Parentheses are required for method calls.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "java_medium_5",
+    "language": "Java",
+    "description": "Fix for-loop syntax.",
+    "buggyCode": "for(int i=0 i<5 i++)",
+    "correctFix": "for(int i=0; i<5; i++)",
+    "options": ["for(int i=0; i<5; i++)", "for(int i=0 i<5 i++)", "for i in range(5)", "for(int i=0; i<5)"],
+    "bugExplanation": "Java for-loops require semicolons to separate statements.",
+    "difficulty": "medium"
+  },
+  {
+    "id": "java_hard_1",
+    "language": "Java",
+    "description": "Fix method return type.",
+    "buggyCode": "public static add(int a, int b) { return a+b; }",
+    "correctFix": "public static int add(int a, int b) { return a+b; }",
+    "options": ["public static int add(int a, int b) { return a+b; }", "public static add(int a, int b) { return a+b; }", "static int add(a,b){return a+b;}", "public int add(int a, int b){return a+b;}"],
+    "bugExplanation": "Java methods must declare return type.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "java_hard_2",
+    "language": "Java",
+    "description": "Fix missing bracket.",
+    "buggyCode": "if(a>5) System.out.println(a;",
+    "correctFix": "if(a>5) System.out.println(a);",
+    "options": ["if(a>5) System.out.println(a);", "if(a>5) System.out.println(a", "if(a>5) System.out.println(a).", "if(a>5) System.out.println(a)/"],
+    "bugExplanation": "Parentheses and semicolon required.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "java_hard_3",
+    "language": "Java",
+    "description": "Fix boolean return.",
+    "buggyCode": "public boolean check() { return TRUE; }",
+    "correctFix": "public boolean check() { return true; }",
+    "options": ["return true;", "return TRUE;", "return True;", "return 1;"],
+    "bugExplanation": "Java boolean values are lowercase true/false.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "java_hard_4",
+    "language": "Java",
+    "description": "Fix missing constructor name.",
+    "buggyCode": "public void Test() { }",
+    "correctFix": "public Test() { }",
+    "options": ["public Test() { }", "public void Test() { }", "Test() { }", "void Test() { }"],
+    "bugExplanation": "Constructor must match class name and have no return type.",
+    "difficulty": "hard"
+  },
+  {
+    "id": "java_hard_5",
+    "language": "Java",
+    "description": "Fix static context error.",
+    "buggyCode": "System.out.println(name);",
+    "correctFix": "System.out.println(this.name);",
+    "options": ["System.out.println(this.name);", "System.out.println(name);", "System.out.print(name);", "print(name);"],
+    "bugExplanation": "Non-static variable accessed from static context.",
+    "difficulty": "hard"
+  }
+]

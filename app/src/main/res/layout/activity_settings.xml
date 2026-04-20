@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_background_primary"
+    tools:context=".SettingsActivity">
+
+    <!-- Top Bar with Back Arrow and Title -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:background="@color/dark_background_secondary">
+
+        <ImageView
+            android:id="@+id/ivBackArrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:minWidth="48dp"
+            android:minHeight="48dp"
+            android:padding="8dp"
+            android:src="@drawable/ic_back_arrow"
+            app:tint="@color/text_light"
+            android:contentDescription="@string/back_button_desc"
+            android:clickable="true"
+            android:focusable="true" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/settings_title"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_light"
+            android:layout_marginStart="16dp" />
+    </LinearLayout>
+
+    <!-- Scrollable Content -->
+    <ScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!-- Profile Section -->
+            <LinearLayout
+                android:id="@+id/profile_section"
+                style="@style/SettingsSectionCard">
+
+                <TextView
+                    style="@style/SettingsSectionTitle"
+                    android:text="@string/profile_settings_title" />
+
+                <TextView
+                    style="@style/SettingsLabel"
+                    android:text="@string/full_name_label" />
+
+                <EditText
+                    android:id="@+id/etName"
+                    style="@style/SettingsEditText"
+                    android:hint="@string/full_name_hint"
+                    android:inputType="textPersonName" />
+
+                <TextView
+                    style="@style/SettingsLabel"
+                    android:text="@string/age_label" />
+                <EditText
+                    android:id="@+id/etAge"
+                    style="@style/SettingsEditText"
+                    android:hint="@string/age_hint"
+                    android:inputType="number" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginTop="8dp">
+
+                    <TextView
+                        style="@style/SettingsLabel"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:text="@string/current_avatar_label"
+                        android:layout_marginTop="0dp"/>
+
+                    <ImageView
+                        android:id="@+id/imgCurrentAvatar"
+                        android:layout_width="50dp"
+                        android:layout_height="50dp"
+                        android:contentDescription="@string/avatar_desc"
+                        android:background="@drawable/rounded_image_background"
+                        android:layout_marginEnd="12dp" />
+
+                    <Button
+                        android:id="@+id/btnChangeAvatar"
+                        style="@style/SettingsButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/change_avatar_button"
+                        android:backgroundTint="@color/accent_purple" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btnSaveProfile"
+                    style="@style/SettingsButton"
+                    android:text="@string/save_profile_button"
+                    android:backgroundTint="@color/accent_blue" />
+            </LinearLayout>
+
+            <!-- Notification Section (Simplified) -->
+            <LinearLayout
+                android:id="@+id/notification_section"
+                style="@style/SettingsSectionCard"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:paddingTop="12dp"
+                android:paddingBottom="12dp">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Notification"
+                    android:textColor="@color/accent_blue"
+
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:gravity="center_vertical" />
+
+                <Switch
+                    android:id="@+id/switchNotifications"
+                    style="@style/SettingsSwitch"
+                    android:text=""
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+
+            <!-- Removed Language Settings Section -->
+
+            <!-- App Theme and Sound Section -->
+            <LinearLayout
+                android:id="@+id/app_theme_sound_section"
+                style="@style/SettingsSectionCard">
+
+                <TextView
+                    style="@style/SettingsSectionTitle"
+                    android:text="Audio Settings" />
+
+                <Switch
+                    android:id="@+id/switchAppMusic"
+                    style="@style/SettingsSwitch"
+                    android:text="Background Music"
+                    android:checked="true" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Music Volume"
+                    android:textColor="@color/text_light"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16dp" />
+
+                <SeekBar
+                    android:id="@+id/seekBarMusicVolume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="70"
+                    android:layout_marginTop="8dp" />
+
+                <Switch
+                    android:id="@+id/switchAppSoundEffects"
+                    style="@style/SettingsSwitch"
+                    android:text="Sound Effects"
+                    android:checked="true"
+                    android:layout_marginTop="16dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Sound Effects Volume"
+                    android:textColor="@color/text_light"
+                    android:textSize="16sp"
+                    android:layout_marginTop="16dp" />
+
+                <SeekBar
+                    android:id="@+id/seekBarSfxVolume"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:max="100"
+                    android:progress="100"
+                    android:layout_marginTop="8dp" />
+            </LinearLayout>
+
+            <!-- Privacy & Security Section -->
+            <LinearLayout
+                android:id="@+id/privacy_security_section"
+                style="@style/SettingsSectionCard">
+
+                <TextView
+                    style="@style/SettingsSectionTitle"
+                    android:text="@string/privacy_security_title" />
+
+                <Button
+                    android:id="@+id/btnViewPrivacyPolicy"
+                    style="@style/SettingsButton"
+                    android:text="@string/view_privacy_policy_button"
+                    android:backgroundTint="@color/accent_green" />
+
+                <Switch
+                    android:id="@+id/switchDataSharing"
+                    style="@style/SettingsSwitch"
+                    android:text="@string/data_sharing_switch" />
+
+                <Button
+                    android:id="@+id/btnDeleteAccount"
+                    style="@style/SettingsButton"
+                    android:text="@string/delete_account_button_text"
+                    android:backgroundTint="@color/accent_red" />
+            </LinearLayout>
+
+            <!-- Help & FAQ Section -->
+            <LinearLayout
+                android:id="@+id/help_faq_section"
+                style="@style/SettingsSectionCard">
+
+                <TextView
+                    style="@style/SettingsSectionTitle"
+                    android:text="@string/help_faq_title" />
+
+                <Button
+                    android:id="@+id/btnHelpAndFaq"
+                    style="@style/SettingsButton"
+                    android:text="@string/faq_button"
+                    android:backgroundTint="@color/accent_green" />
+
+                <Button
+                    android:id="@+id/btnReportBug"
+                    style="@style/SettingsButton"
+                    android:text="@string/report_bug_button"
+                    android:backgroundTint="@color/accent_green" />
+
+                <Button
+                    android:id="@+id/btnContactUs"
+                    style="@style/SettingsButton"
+                    android:text="@string/contact_us_button"
+                    android:backgroundTint="@color/accent_green" />
+            </LinearLayout>
+
+            <!-- About the App Section -->
+            <LinearLayout
+                android:id="@+id/about_app_section"
+                style="@style/SettingsSectionCard">
+
+                <TextView
+                    style="@style/SettingsSectionTitle"
+                    android:text="@string/about_app_title" />
+
+                <Button
+                    android:id="@+id/btnAboutApp"
+                    style="@style/SettingsButton"
+                    android:text="@string/about_the_app_button"
+                    android:backgroundTint="@color/accent_blue" />
+            </LinearLayout>
+
+            <!-- Reset Progress Section -->
+            <LinearLayout
+                android:id="@+id/reset_progress_section"
+                style="@style/SettingsSectionCard">
+
+                <TextView
+                    style="@style/SettingsSectionTitle"
+                    android:text="@string/reset_progress_title" />
+
+                <Button
+                    android:id="@+id/btnResetMyProgress"
+                    style="@style/SettingsButton"
+                    android:text="@string/reset_trait_tracking_button"
+                    android:backgroundTint="@color/accent_red" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_card_background"
+    android:padding="16dp"
+    android:layout_margin="8dp">
+
+    <!-- Case Title -->
+    <TextView
+        android:id="@+id/tvCaseTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/symptom_case_title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_light"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Patient Info -->
+    <TextView
+        android:id="@+id/tvPatientInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/patient_info_placeholder"
+        android:textSize="14sp"
+        android:textColor="@color/text_medium"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Symptoms List -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/symptoms_present_label"
+        android:textSize="12sp"
+        android:textColor="@color/text_medium"
+        android:textStyle="italic"
+        android:layout_marginBottom="8dp" />
+
+    <TextView
+        android:id="@+id/tvSymptomsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/symptoms_list_placeholder"
+        android:textSize="14sp"
+        android:textColor="@color/accent_red"
+        android:background="@drawable/rounded_edittext_background"
+        android:padding="8dp"
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Specialty and Urgency -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvSpecialty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/medical_specialty_placeholder"
+            android:textSize="12sp"
+            android:textColor="@color/text_light"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/accent_blue"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:id="@+id/tvUrgency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/urgency_level_placeholder"
+            android:textSize="12sp"
+            android:textColor="@color/accent_red"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

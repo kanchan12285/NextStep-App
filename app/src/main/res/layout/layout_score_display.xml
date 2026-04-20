@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scoreLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="32dp"
+    android:background="@color/dark_background_primary">
+
+    <TextView
+        android:id="@+id/tvFinalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score: 0"
+        android:textColor="@color/neon_pink"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="24dp" />
+
+    <Button
+        android:id="@+id/btnPlayAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Play Again"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button_background"
+        android:backgroundTint="@color/neon_pink"
+        android:textColor="@color/button_text_light"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:padding="16dp"
+        android:textSize="18sp"
+        android:background="@drawable/rounded_button_background"
+        android:backgroundTint="@color/accent_blue"
+        android:textColor="@color/button_text_light" />
+</LinearLayout>

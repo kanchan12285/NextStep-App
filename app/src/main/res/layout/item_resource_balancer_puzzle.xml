@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_card_background"
+    android:padding="16dp"
+    android:layout_margin="8dp">
+
+    <!-- Puzzle Title -->
+    <TextView
+        android:id="@+id/tvBalanceScenario"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resource_balancer_title"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_light"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Available Resources Description -->
+    <TextView
+        android:id="@+id/tvAvailableResources"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/resource_balancer_description"
+        android:textSize="14sp"
+        android:textColor="@color/text_medium"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Balance Preview (optional) -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/rounded_edittext_background"
+        android:padding="8dp"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/balance_preview_label"
+            android:textSize="12sp"
+            android:textColor="@color/text_medium"
+            android:layout_marginEnd="8dp" />
+
+        <ProgressBar
+            android:id="@+id/pbBalancePreview"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="8dp"
+            android:layout_weight="1"
+            android:progress="50"
+            android:progressTint="@color/accent_blue" />
+    </LinearLayout>
+
+    <!-- Container for dynamically added resource sliders -->
+    <LinearLayout
+        android:id="@+id/llResourceSliders"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="12dp" >
+        <!-- Resource sliders added dynamically here -->
+    </LinearLayout>
+
+    <!-- Submit Allocation Button -->
+    <Button
+        android:id="@+id/btnCheckBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/check_balance"
+        android:background="@drawable/rounded_button_background"
+        android:textColor="@color/button_text_light"
+        android:layout_marginTop="12dp" />
+
+    <!-- Complexity Level (optional) -->
+    <TextView
+        android:id="@+id/tvComplexityLevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/balance_complexity_placeholder"
+        android:textSize="12sp"
+        android:textColor="@color/text_light"
+        android:background="@drawable/rounded_button_background"
+        android:backgroundTint="@color/accent_purple"
+        android:paddingHorizontal="8dp"
+        android:paddingVertical="4dp"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>

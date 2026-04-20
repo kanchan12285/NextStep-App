@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/dark_background_primary"
+    android:padding="24dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <!-- Timer and Score Header -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:id="@+id/tvTimer"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/timer_placeholder"
+                android:textColor="@color/neon_pink"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="start" />
+
+            <TextView
+                android:id="@+id/tvScore"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/score_placeholder"
+                android:textColor="@color/neon_blue"
+                android:textSize="24sp"
+                android:textStyle="bold"
+                android:gravity="end" />
+        </LinearLayout>
+
+        <!-- Instructions -->
+        <TextView
+            android:id="@+id/tvInstructions"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/instructions_slogan_matcher"
+            android:textColor="@color/text_medium"
+            android:textSize="18sp"
+            android:layout_marginBottom="32dp"
+            android:textAlignment="center" />
+
+        <!-- Feedback Text -->
+        <TextView
+            android:id="@+id/tvFeedback"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/error_red"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="24dp"
+            android:visibility="gone"
+            android:textAlignment="center" />
+
+        <!-- Challenge Content -->
+        <LinearLayout
+            android:id="@+id/llChallengeContent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:background="@drawable/rounded_card_background"
+            android:padding="16dp"
+            android:layout_marginBottom="32dp"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/tvCompanyName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/company_name_placeholder"
+                android:textColor="@color/accent_blue"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:layout_marginBottom="24dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/match_correct_slogan"
+                android:textColor="@color/text_medium"
+                android:textSize="16sp"
+                android:textStyle="italic"
+                android:layout_marginBottom="16dp"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:id="@+id/llSloganOptions"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+                <!-- Slogan options will be dynamically added here -->
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!-- Buttons -->
+        <Button
+            android:id="@+id/btnStartGame"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/start_game"
+            android:textColor="@color/button_text_light"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/accent_green"
+            android:paddingVertical="12dp"
+            android:paddingHorizontal="24dp"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/btnBackToDashboard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/back_to_dashboard"
+            android:textColor="@color/text_medium"
+            android:textSize="16sp"
+            android:background="@android:color/transparent"
+            android:padding="8dp" />
+
+    </LinearLayout>
+</ScrollView>

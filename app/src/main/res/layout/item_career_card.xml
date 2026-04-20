@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/rounded_card_background"
+    android:padding="16dp"
+    android:layout_margin="8dp"
+    android:gravity="center_vertical">
+
+    <!-- Career Icon -->
+    <ImageView
+        android:id="@+id/ivCareerIcon"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@drawable/ic_career_default"
+        android:contentDescription="@string/career_icon_desc"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Career Info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCareerTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/career_title_placeholder"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_light"
+            android:layout_marginBottom="4dp" />
+
+        <TextView
+            android:id="@+id/tvCareerDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/career_description_placeholder"
+            android:textSize="14sp"
+            android:textColor="@color/text_medium"
+            android:maxLines="2"
+            android:ellipsize="end"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Match Percentage -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/match_label"
+                android:textSize="12sp"
+                android:textColor="@color/text_medium"
+                android:layout_marginEnd="8dp" />
+
+            <ProgressBar
+                android:id="@+id/progressMatch"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="8dp"
+                android:layout_weight="1"
+                android:progressTint="@color/accent_green"
+                android:layout_marginEnd="8dp" />
+
+            <TextView
+                android:id="@+id/tvMatchPercentage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/match_percentage_placeholder"
+                android:textSize="12sp"
+                android:textStyle="bold"
+                android:textColor="@color/accent_green" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

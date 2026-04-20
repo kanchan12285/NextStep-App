@@ -1,0 +1,255 @@
+[
+  {
+    "id": "scenario_1",
+    "title": "Team Project Problem",
+    "description": "A teammate keeps missing deadlines. What will you do?",
+    "imageUrl": "https://placehold.co/600x300/8A2BE2/FFFFFF?text=Team+Project",
+    "choices": [
+      {
+        "text": "Talk to them firmly and demand improvement.",
+        "outcomeText": "You were direct and firm, showing accountability.",
+        "traits": { "assertiveness": 3, "teamwork": -1, "stress_tolerance": 1 }
+      },
+      {
+        "text": "Offer help and ask if they are facing issues.",
+        "outcomeText": "You showed empathy and teamwork.",
+        "traits": { "empathy": 3, "teamwork": 2, "leadership": 1 }
+      },
+      {
+        "text": "Report the issue to your project lead.",
+        "outcomeText": "You escalated the issue, avoiding direct conflict.",
+        "traits": { "responsibility": 2, "assertiveness": -1, "leadership": -1 }
+      },
+      {
+        "text": "Do their work yourself to meet deadlines.",
+        "outcomeText": "You ensured progress but encouraged poor performance.",
+        "traits": { "stress_tolerance": 2, "teamwork": 0, "responsibility": 1 }
+      }
+    ]
+  },
+  {
+    "id": "scenario_2",
+    "title": "Client Change Request",
+    "description": "A client wants big changes at the last moment. What will you do?",
+    "imageUrl": "https://placehold.co/600x300/FF6347/FFFFFF?text=Client+Request",
+    "choices": [
+      {
+        "text": "Say yes immediately to keep them happy.",
+        "outcomeText": "You put client first but risk project efficiency.",
+        "traits": { "adaptability": 3, "stress_tolerance": 1, "attention_to_detail": -1 }
+      },
+      {
+        "text": "Explain impact and suggest better alternatives.",
+        "outcomeText": "You balanced client needs with project limits.",
+        "traits": { "analytical_thinking": 3, "creativity": 2, "assertiveness": 1 }
+      },
+      {
+        "text": "Firmly say it’s not possible in current timeline.",
+        "outcomeText": "You showed assertiveness but risk client relations.",
+        "traits": { "assertiveness": 2, "adaptability": -2, "stress_tolerance": 0 }
+      },
+      {
+        "text": "Call your team to brainstorm quick solutions.",
+        "outcomeText": "You showed teamwork and leadership.",
+        "traits": { "leadership": 2, "teamwork": 2, "stress_tolerance": 2 }
+      }
+    ]
+  },
+  {
+    "id": "scenario_3",
+    "title": "Pitching a New Idea",
+    "description": "You have a new idea but fear resistance. What will you do?",
+    "imageUrl": "https://placehold.co/600x300/3CB371/FFFFFF?text=Innovative+Idea",
+    "choices": [
+      {
+        "text": "Confidently present with data and logic.",
+        "outcomeText": "You showed analysis and confidence.",
+        "traits": { "analytical_thinking": 2, "assertiveness": 2, "creativity": 1 }
+      },
+      {
+        "text": "Share tentatively and ask for feedback.",
+        "outcomeText": "You encouraged collaboration and creativity.",
+        "traits": { "teamwork": 2, "creativity": 2, "empathy": 1 }
+      },
+      {
+        "text": "Keep it to yourself for now.",
+        "outcomeText": "You stayed cautious but missed opportunity.",
+        "traits": { "creativity": -1, "assertiveness": -1, "attention_to_detail": 1 }
+      },
+      {
+        "text": "Ask a trusted colleague first for advice.",
+        "outcomeText": "You took a thoughtful and careful step.",
+        "traits": { "empathy": 1, "teamwork": 1, "leadership": 0 }
+      }
+    ]
+  },
+    {
+      "id": "scenario_23",
+      "title": "Overtime Request",
+      "description": "Your boss asks you to work late again. What will you do?",
+      "imageUrl": "https://placehold.co/600x300/FFA07A/FFFFFF?text=Overtime",
+      "choices": [
+        {
+          "text": "Agree without hesitation.",
+          "outcomeText": "You showed dedication but risk burnout.",
+          "traits": { "responsibility": 3, "stress_tolerance": 2, "assertiveness": -1 }
+        },
+        {
+          "text": "Explain politely you need rest.",
+          "outcomeText": "You set healthy boundaries.",
+          "traits": { "assertiveness": 2, "stress_tolerance": 1, "teamwork": -1 }
+        },
+        {
+          "text": "Ask if the work can wait until tomorrow.",
+          "outcomeText": "You balanced commitment with practicality.",
+          "traits": { "analytical_thinking": 2, "responsibility": 1, "empathy": 1 }
+        },
+        {
+          "text": "Offer partial help but not full overtime.",
+          "outcomeText": "You compromised to support the team.",
+          "traits": { "teamwork": 2, "assertiveness": 1, "stress_tolerance": 1 }
+        }
+      ]
+    },
+    {
+      "id": "scenario_24",
+      "title": "Missed Deadline",
+      "description": "You missed a deadline due to unexpected issues. What will you do?",
+      "imageUrl": "https://placehold.co/600x300/20B2AA/FFFFFF?text=Deadline",
+      "choices": [
+        {
+          "text": "Apologize and promise to do better.",
+          "outcomeText": "You took responsibility.",
+          "traits": { "responsibility": 3, "assertiveness": 1, "stress_tolerance": 0 }
+        },
+        {
+          "text": "Blame external issues.",
+          "outcomeText": "You avoided blame but risk trust.",
+          "traits": { "responsibility": -2, "assertiveness": 1, "teamwork": -1 }
+        },
+        {
+          "text": "Give a clear report on what went wrong.",
+          "outcomeText": "You were transparent and professional.",
+          "traits": { "analytical_thinking": 2, "responsibility": 2, "leadership": 1 }
+        },
+        {
+          "text": "Stay silent and hope it is ignored.",
+          "outcomeText": "You avoided conflict but hurt accountability.",
+          "traits": { "responsibility": -1, "stress_tolerance": 0, "assertiveness": -2 }
+        }
+      ]
+    },
+    {
+      "id": "scenario_25",
+      "title": "Office Conflict",
+      "description": "Two coworkers argue loudly during work. What will you do?",
+      "imageUrl": "https://placehold.co/600x300/DC143C/FFFFFF?text=Conflict",
+      "choices": [
+        {
+          "text": "Step in and calm them down.",
+          "outcomeText": "You showed leadership and empathy.",
+          "traits": { "leadership": 3, "empathy": 2, "stress_tolerance": 1 }
+        },
+        {
+          "text": "Ignore and continue working.",
+          "outcomeText": "You stayed focused but missed teamwork.",
+          "traits": { "responsibility": 1, "teamwork": -2, "assertiveness": 0 }
+        },
+        {
+          "text": "Report the fight to HR.",
+          "outcomeText": "You chose a formal solution.",
+          "traits": { "responsibility": 2, "assertiveness": 1, "leadership": 0 }
+        },
+        {
+          "text": "Support one side openly.",
+          "outcomeText": "You worsened the conflict but showed loyalty.",
+          "traits": { "teamwork": -1, "empathy": 1, "assertiveness": 2 }
+        }
+      ]
+    },
+    {
+      "id": "scenario_26",
+      "title": "Tight Presentation",
+      "description": "You are asked to present in 10 minutes. What will you do?",
+      "imageUrl": "https://placehold.co/600x300/4169E1/FFFFFF?text=Presentation",
+      "choices": [
+        {
+          "text": "Confidently present with what you know.",
+          "outcomeText": "You showed confidence under pressure.",
+          "traits": { "stress_tolerance": 3, "assertiveness": 2, "leadership": 1 }
+        },
+        {
+          "text": "Ask for more time.",
+          "outcomeText": "You tried to prepare better but risked impression.",
+          "traits": { "assertiveness": 1, "analytical_thinking": 1, "stress_tolerance": -1 }
+        },
+        {
+          "text": "Share the stage with a teammate.",
+          "outcomeText": "You showed teamwork and adaptability.",
+          "traits": { "teamwork": 3, "empathy": 1, "leadership": 1 }
+        },
+        {
+          "text": "Decline politely.",
+          "outcomeText": "You avoided stress but missed opportunity.",
+          "traits": { "stress_tolerance": -2, "assertiveness": -1, "responsibility": -1 }
+        }
+      ]
+    },
+    {
+      "id": "scenario_27",
+      "title": "New Colleague",
+      "description": "A new colleague seems lost on their first day. What will you do?",
+      "imageUrl": "https://placehold.co/600x300/FF69B4/FFFFFF?text=Onboarding",
+      "choices": [
+        {
+          "text": "Offer to guide them around.",
+          "outcomeText": "You showed empathy and teamwork.",
+          "traits": { "empathy": 3, "teamwork": 2, "leadership": 1 }
+        },
+        {
+          "text": "Let them figure things out.",
+          "outcomeText": "You encouraged independence but risked isolation.",
+          "traits": { "teamwork": -1, "empathy": -1, "responsibility": 1 }
+        },
+        {
+          "text": "Ask your manager to assist them.",
+          "outcomeText": "You delegated responsibility.",
+          "traits": { "responsibility": 2, "leadership": -1, "teamwork": 0 }
+        },
+        {
+          "text": "Just smile and greet politely.",
+          "outcomeText": "You were friendly but not very helpful.",
+          "traits": { "empathy": 1, "teamwork": 0, "assertiveness": 0 }
+        }
+      ]
+    },
+    {
+      "id": "scenario_28",
+      "title": "Workplace Gossip",
+      "description": "Coworkers start gossiping about someone. What will you do?",
+      "imageUrl": "https://placehold.co/600x300/8B008B/FFFFFF?text=Gossip",
+      "choices": [
+        {
+          "text": "Join in the gossip.",
+          "outcomeText": "You bonded socially but risked professionalism.",
+          "traits": { "teamwork": 1, "responsibility": -2, "empathy": -1 }
+        },
+        {
+          "text": "Stay silent and listen.",
+          "outcomeText": "You avoided trouble but didn’t stop negativity.",
+          "traits": { "responsibility": 0, "empathy": 0, "assertiveness": -1 }
+        },
+        {
+          "text": "Speak up and stop the gossip.",
+          "outcomeText": "You showed integrity and assertiveness.",
+          "traits": { "assertiveness": 3, "responsibility": 2, "leadership": 1 }
+        },
+        {
+          "text": "Change the subject casually.",
+          "outcomeText": "You kept things positive without conflict.",
+          "traits": { "empathy": 2, "teamwork": 1, "stress_tolerance": 1 }
+        }
+      ]
+    }
+  ]
+

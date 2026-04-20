@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dark_background_secondary"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:text="Privacy Policy"
+            android:textColor="@color/accent_purple"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:text="Welcome to NextStep. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application."
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            android:lineSpacingExtra="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:text="1. Information We Collect"
+            android:textColor="@color/accent_purple"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp" />
+
+        <TextView
+            android:text="We collect personal information you provide directly, such as your name, age, and avatar. We also collect usage data to improve your experience."
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:text="2. Use of Information"
+            android:textColor="@color/accent_purple"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp" />
+
+        <TextView
+            android:text="Your information is used to personalize your experience, provide app features, and improve app functionality."
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:text="3. Sharing of Information"
+            android:textColor="@color/accent_purple"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp" />
+
+        <TextView
+            android:text="We do not sell your personal information. We may share data with trusted third parties to provide services, comply with legal obligations, or protect rights."
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:text="4. Data Security"
+            android:textColor="@color/accent_purple"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp" />
+
+        <TextView
+            android:text="We implement reasonable safeguards to protect your information from unauthorized access or disclosure."
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:text="5. Your Choices and Rights"
+            android:textColor="@color/accent_purple"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp" />
+
+        <TextView
+            android:text="You can update or delete your data in your profile settings. You can opt out of notifications and data sharing in app settings."
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:text="6. Changes to This Policy"
+            android:textColor="@color/accent_purple"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp" />
+
+        <TextView
+            android:text="We may update this Privacy Policy periodically. We will notify you of any substantial changes within the app."
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp" />
+
+        <TextView
+            android:text="7. Contact Us"
+            android:textColor="@color/accent_purple"
+            android:textStyle="bold"
+            android:textSize="16sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="3dp" />
+
+        <TextView
+            android:text="For privacy-related questions, contact us at privacy@nextstep.com.\n\nThank you for trusting NextStep!"
+            android:textColor="@color/text_light"
+            android:textSize="14sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</ScrollView>

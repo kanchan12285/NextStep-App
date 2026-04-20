@@ -1,0 +1,242 @@
+[
+  {
+    "levelId": "hh_easy_1",
+    "articleSummary": "Bakery donates unsold bread daily to homeless shelters.",
+    "correctHeadline": "Bakery Fights Hunger, Reduces Waste with Daily Donations",
+    "headlineOptions": [
+      "Bakery Gives Away Bread",
+      "Bakery Fights Hunger, Reduces Waste with Daily Donations",
+      "Unsold Bread Donated Daily",
+      "Community Bakery Helps Homeless"
+    ],
+    "explanation": "Highlights both charity and waste reduction."
+  },
+  {
+    "levelId": "hh_easy_2",
+    "articleSummary": "New butterfly species discovered in Amazon, camouflages like leaves.",
+    "correctHeadline": "New Amazon Butterfly Species Uses Leaf-Like Camouflage",
+    "headlineOptions": [
+      "Scientists Find New Butterfly",
+      "New Amazon Butterfly Species Uses Leaf-Like Camouflage",
+      "Amazon Discovery: Unique Wing Patterns",
+      "Butterfly Camouflages as Leaves"
+    ],
+    "explanation": "Emphasizes discovery and unique camouflage."
+  },
+  {
+    "levelId": "hh_easy_3",
+    "articleSummary": "Student creates app helping elderly connect with volunteer shoppers.",
+    "correctHeadline": "Teen Creates Grocery App for Elderly During Pandemic",
+    "headlineOptions": [
+      "Student Makes Shopping App",
+      "Teen Creates Grocery App for Elderly During Pandemic",
+      "High School App Helps Seniors",
+      "Pandemic Shopping Solution Created"
+    ],
+    "explanation": "Includes creator, solution, and target audience."
+  },
+  {
+    "levelId": "hh_easy_4",
+    "articleSummary": "Local park installs free drinking fountains for community use.",
+    "correctHeadline": "Community Park Adds Free Drinking Fountains",
+    "headlineOptions": [
+      "Park Adds Fountains",
+      "Community Park Adds Free Drinking Fountains",
+      "Free Water for Park Visitors",
+      "New Park Amenities Installed"
+    ],
+    "explanation": "Concise and shows benefit to community."
+  },
+  {
+    "levelId": "hh_easy_5",
+    "articleSummary": "Library hosts weekly free coding workshops for children.",
+    "correctHeadline": "Library Offers Free Weekly Coding Workshops for Kids",
+    "headlineOptions": [
+      "Coding Classes for Children",
+      "Library Offers Free Weekly Coding Workshops for Kids",
+      "Kids Learn Coding at Library",
+      "Weekly Programming Sessions at Library"
+    ],
+    "explanation": "Highlights frequency, free access, and target audience."
+  },
+  {
+    "levelId": "hh_easy_6",
+    "articleSummary": "City park organizes a cleanup drive engaging local volunteers.",
+    "correctHeadline": "Volunteers Join City Park Cleanup Drive",
+    "headlineOptions": [
+      "Park Cleanup Event",
+      "Volunteers Join City Park Cleanup Drive",
+      "Community Cleans Local Park",
+      "City Organizes Park Drive"
+    ],
+    "explanation": "Focuses on community action."
+  },
+  {
+    "levelId": "hh_easy_7",
+    "articleSummary": "Animal shelter hosts adoption fair, helping 50 pets find homes.",
+    "correctHeadline": "Animal Shelter Finds Homes for 50 Pets at Adoption Fair",
+    "headlineOptions": [
+      "Pets Adopted at Local Fair",
+      "Animal Shelter Finds Homes for 50 Pets at Adoption Fair",
+      "Shelter Hosts Pet Event",
+      "Community Adoption Fair"
+    ],
+    "explanation": "Highlights outcome and event."
+  },
+  {
+    "levelId": "hh_easy_8",
+    "articleSummary": "School starts composting program to reduce cafeteria waste.",
+    "correctHeadline": "School Launches Composting Program to Reduce Food Waste",
+    "headlineOptions": [
+      "School Starts Composting",
+      "School Launches Composting Program to Reduce Food Waste",
+      "Cafeteria Waste Goes Green",
+      "Students Compost Lunch Waste"
+    ],
+    "explanation": "Concise and shows environmental action."
+  },
+  {
+    "levelId": "hh_easy_9",
+    "articleSummary": "Community garden opens, residents rent plots to grow vegetables.",
+    "correctHeadline": "Community Garden Lets Residents Grow Their Own Vegetables",
+    "headlineOptions": [
+      "Garden Opens in Neighborhood",
+      "Community Garden Lets Residents Grow Their Own Vegetables",
+      "Local Residents Start Gardening",
+      "Vegetable Plots Available for Rent"
+    ],
+    "explanation": "Highlights both access and purpose."
+  },
+  {
+    "levelId": "hh_easy_10",
+    "articleSummary": "City installs solar panels on public buildings to save energy.",
+    "correctHeadline": "City Installs Solar Panels on Public Buildings",
+    "headlineOptions": [
+      "Solar Energy Comes to City",
+      "City Installs Solar Panels on Public Buildings",
+      "Public Buildings Go Green",
+      "City Embraces Renewable Energy"
+    ],
+    "explanation": "Concise and emphasizes renewable energy adoption."
+  },
+  {
+    "levelId": "hh_medium_1",
+    "articleSummary": "City council launches bike-sharing program with 500 electric bikes downtown.",
+    "correctHeadline": "City Launches 500-Bike Electric Sharing Program",
+    "headlineOptions": [
+      "New Bike Program Approved",
+      "City Launches 500-Bike Electric Sharing Program",
+      "Downtown Gets E-Bikes",
+      "Council Votes for Bike Sharing"
+    ],
+    "explanation": "Shows scale and innovative transport solution."
+  },
+  {
+    "levelId": "hh_medium_2",
+    "articleSummary": "University develops solar-powered water purifier for rural areas.",
+    "correctHeadline": "Solar Water Purifier Could Help Millions in Rural Areas",
+    "headlineOptions": [
+      "University Develops Water Technology",
+      "Solar Water Purifier Could Help Millions in Rural Areas",
+      "Clean Water from Solar Energy",
+      "Researchers Invent Water Purifier"
+    ],
+    "explanation": "Highlights impact and innovation."
+  },
+  {
+    "levelId": "hh_medium_3",
+    "articleSummary": "Community garden opens in vacant lot, residents learn sustainable farming.",
+    "correctHeadline": "Community Garden Transforms Vacant Lot into Learning Hub",
+    "headlineOptions": [
+      "New Garden Opens",
+      "Community Garden Transforms Vacant Lot into Learning Hub",
+      "Residents Grow Vegetables",
+      "Sustainable Farming Comes to City"
+    ],
+    "explanation": "Captures transformation and educational purpose."
+  },
+  {
+    "levelId": "hh_medium_4",
+    "articleSummary": "Local startup creates reusable coffee cups, reducing single-use plastic.",
+    "correctHeadline": "Startup Launches Reusable Coffee Cups to Cut Plastic Waste",
+    "headlineOptions": [
+      "Coffee Cups Go Green",
+      "Startup Launches Reusable Coffee Cups to Cut Plastic Waste",
+      "Single-Use Plastic Replaced",
+      "Eco-Friendly Coffee Cups Created"
+    ],
+    "explanation": "Focuses on innovation and environmental impact."
+  },
+  {
+    "levelId": "hh_medium_5",
+    "articleSummary": "City library hosts virtual reading program reaching thousands of children.",
+    "correctHeadline": "Library Virtual Reading Program Engages Thousands of Kids",
+    "headlineOptions": [
+      "Library Launches Reading Program",
+      "Library Virtual Reading Program Engages Thousands of Kids",
+      "Kids Read Online",
+      "Virtual Reading Event Held"
+    ],
+    "explanation": "Highlights reach and format."
+  },
+  {
+    "levelId": "hh_medium_6",
+    "articleSummary": "Hospital opens free vaccination camp in local community.",
+    "correctHeadline": "Hospital Offers Free Vaccination Camp to Community",
+    "headlineOptions": [
+      "Free Vaccination Camp Held",
+      "Hospital Offers Free Vaccination Camp to Community",
+      "Community Health Initiative Launched",
+      "Vaccines Available for Free"
+    ],
+    "explanation": "Shows action and public health benefit."
+  },
+  {
+    "levelId": "hh_medium_7",
+    "articleSummary": "City adds new pedestrian zones to promote walking and reduce traffic.",
+    "correctHeadline": "City Creates Pedestrian Zones to Reduce Traffic",
+    "headlineOptions": [
+      "New Walking Areas Added",
+      "City Creates Pedestrian Zones to Reduce Traffic",
+      "Downtown Walkable Streets",
+      "Traffic Reduced with Pedestrian Areas"
+    ],
+    "explanation": "Emphasizes solution and urban planning benefit."
+  },
+  {
+    "levelId": "hh_medium_8",
+    "articleSummary": "School installs rainwater harvesting system to save water.",
+    "correctHeadline": "School Adopts Rainwater Harvesting to Conserve Water",
+    "headlineOptions": [
+      "Rainwater System Installed",
+      "School Adopts Rainwater Harvesting to Conserve Water",
+      "Students Learn Water Conservation",
+      "New Eco-Friendly School Initiative"
+    ],
+    "explanation": "Concise and shows sustainability effort."
+  },
+  {
+    "levelId": "hh_medium_9",
+    "articleSummary": "Local farmers market expands to include organic produce section.",
+    "correctHeadline": "Farmers Market Adds Organic Produce Section",
+    "headlineOptions": [
+      "Organic Section Added",
+      "Farmers Market Adds Organic Produce Section",
+      "Local Market Goes Organic",
+      "New Healthy Options at Market"
+    ],
+    "explanation": "Highlights new feature and health focus."
+  },
+  {
+    "levelId": "hh_medium_10",
+    "articleSummary": "Community center offers free yoga classes to promote wellness.",
+    "correctHeadline": "Community Center Launches Free Yoga Classes for Wellness",
+    "headlineOptions": [
+      "Free Yoga Classes Offered",
+      "Community Center Launches Free Yoga Classes for Wellness",
+      "Yoga for Everyone",
+      "Wellness Initiative at Community Center"
+    ],
+    "explanation": "Emphasizes access and purpose."
+  }
+]

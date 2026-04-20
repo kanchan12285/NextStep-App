@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/rounded_card_background"
+    android:padding="16dp"
+    android:layout_margin="8dp">
+
+    <!-- Challenge Title -->
+    <TextView
+        android:id="@+id/tvChallengeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fact_check_title_item"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_light"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Fact Statement -->
+    <TextView
+        android:id="@+id/tvFactStatement"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fact_statement_item_placeholder"
+        android:textSize="14sp"
+        android:textColor="@color/text_medium"
+        android:maxLines="2"
+        android:ellipsize="end"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Category and Difficulty -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvCategory"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fact_category_placeholder"
+            android:textSize="12sp"
+            android:textColor="@color/text_light"
+            android:background="@drawable/rounded_button_background"
+            android:backgroundTint="@color/accent_blue"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fact_or_fiction_label"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:textColor="@color/accent_orange" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,389 @@
+[
+  {
+    "levelId": "er_easy_1",
+    "message": "This project feels too much.",
+    "correctResponse": "Sounds overwhelming. Can I help?",
+    "responseOptions": [
+      "Just push through.",
+      "Sounds overwhelming. Can I help?",
+      "You'll be fine."
+    ],
+    "traitImpact": {"empathy": 3, "communication": 2}
+  },
+  {
+    "levelId": "er_easy_2",
+    "message": "I got into my dream university!",
+    "correctResponse": "That's amazing! What will you study?",
+    "responseOptions": [
+      "Good for you.",
+      "That's amazing! What will you study?",
+      "I knew you could do it."
+    ],
+    "traitImpact": {"empathy": 2, "active_listening": 1}
+  },
+  {
+    "levelId": "er_easy_3",
+    "message": "I'm nervous about my presentation.",
+    "correctResponse": "It's normal. You're ready, you'll do great!",
+    "responseOptions": [
+      "Just don't mess up.",
+      "It's normal. You're ready, you'll do great!",
+      "Everyone gets nervous."
+    ],
+    "traitImpact": {"communication": 2, "compassion": 1}
+  },
+  {
+    "levelId": "er_easy_4",
+    "message": "I've been lonely lately.",
+    "correctResponse": "Sorry to hear that. Want to talk or meet?",
+    "responseOptions": [
+      "That's too bad.",
+      "You should get out more.",
+      "Sorry to hear that. Want to talk or meet?"
+    ],
+    "traitImpact": {"empathy": 2, "active_listening": 1}
+  },
+  {
+    "levelId": "er_easy_5",
+    "message": "My computer keeps crashing.",
+    "correctResponse": "That’s annoying. Tried restarting or updating?",
+    "responseOptions": [
+      "Computers are like that.",
+      "That’s annoying. Tried restarting or updating?",
+      "Just get a new one."
+    ],
+    "traitImpact": {"compassion": 1, "problem_solving": 1}
+  },
+  {
+    "levelId": "er_easy_6",
+    "message": "I'm tired today.",
+    "correctResponse": "Rough day? Want to rest a bit?",
+    "responseOptions": [
+      "Everyone gets tired.",
+      "Rough day? Want to rest a bit?",
+      "Ignore it, keep working."
+    ],
+    "traitImpact": {"empathy": 1, "communication": 1}
+  },
+  {
+    "levelId": "er_easy_7",
+    "message": "I lost my wallet.",
+    "correctResponse": "That’s stressful. Do you want help retracing?",
+    "responseOptions": [
+      "Be more careful.",
+      "That’s stressful. Do you want help retracing?",
+      "It’s just money."
+    ],
+    "traitImpact": {"problem_solving": 2, "empathy": 1}
+  },
+  {
+    "levelId": "er_easy_8",
+    "message": "I got a new puppy!",
+    "correctResponse": "That’s adorable! What’s its name?",
+    "responseOptions": [
+      "Okay.",
+      "That’s adorable! What’s its name?",
+      "Dogs are messy."
+    ],
+    "traitImpact": {"empathy": 1, "active_listening": 1}
+  },
+  {
+    "levelId": "er_easy_9",
+    "message": "I burned my dinner.",
+    "correctResponse": "That’s frustrating. Want to order food?",
+    "responseOptions": [
+      "Cook better next time.",
+      "That’s frustrating. Want to order food?",
+      "It’s just food."
+    ],
+    "traitImpact": {"compassion": 1, "problem_solving": 1}
+  },
+  {
+    "levelId": "er_easy_10",
+    "message": "I forgot my umbrella and got soaked.",
+    "correctResponse": "Oh no! Do you want to dry off and warm up?",
+    "responseOptions": [
+      "That’s careless.",
+      "Oh no! Do you want to dry off and warm up?",
+      "At least it’s just water."
+    ],
+    "traitImpact": {"empathy": 1, "communication": 1}
+  },
+
+  {
+    "levelId": "er_medium_1",
+    "message": "I didn’t get the promotion.",
+    "correctResponse": "That must hurt after your effort. It’s okay to feel down.",
+    "responseOptions": [
+      "Don’t worry, better will come.",
+      "That must hurt after your effort. It’s okay to feel down.",
+      "At least you have a job."
+    ],
+    "traitImpact": {"empathy": 4, "active_listening": 3, "communication": 2}
+  },
+  {
+    "levelId": "er_medium_2",
+    "message": "My friend is avoiding me.",
+    "correctResponse": "That’s tough. Maybe reach out gently?",
+    "responseOptions": [
+      "They’re busy.",
+      "You should confront them.",
+      "That’s tough. Maybe reach out gently?"
+    ],
+    "traitImpact": {"empathy": 3, "communication": 3, "problem_solving": 2}
+  },
+  {
+    "levelId": "er_medium_3",
+    "message": "I can’t balance work and life.",
+    "correctResponse": "Sounds heavy. Let’s find small ways to ease it.",
+    "responseOptions": [
+      "Everyone feels stressed.",
+      "Just manage time better.",
+      "Sounds heavy. Let’s find small ways to ease it."
+    ],
+    "traitImpact": {"active_listening": 3, "compassion": 2, "emotional_intelligence": 2}
+  },
+  {
+    "levelId": "er_medium_4",
+    "message": "I made a mistake at work.",
+    "correctResponse": "It’s natural to worry. What steps can help fix it?",
+    "responseOptions": [
+      "Just apologize.",
+      "Don’t dwell.",
+      "It’s natural to worry. What steps can help fix it?"
+    ],
+    "traitImpact": {"empathy": 3, "problem_solving": 2, "communication": 2}
+  },
+  {
+    "levelId": "er_medium_5",
+    "message": "My ideas are ignored in meetings.",
+    "correctResponse": "That’s frustrating. Want to try strategies to be heard?",
+    "responseOptions": [
+      "Speak up more.",
+      "Maybe your ideas aren’t good.",
+      "That’s frustrating. Want to try strategies to be heard?"
+    ],
+    "traitImpact": {"active_listening": 3, "emotional_intelligence": 3}
+  },
+  {
+    "levelId": "er_medium_6",
+    "message": "I failed my exam.",
+    "correctResponse": "That’s disappointing. Want to review what went wrong?",
+    "responseOptions": [
+      "Just study harder.",
+      "That’s disappointing. Want to review what went wrong?",
+      "It’s just one test."
+    ],
+    "traitImpact": {"empathy": 2, "problem_solving": 2}
+  },
+  {
+    "levelId": "er_medium_7",
+    "message": "I argued with my sibling.",
+    "correctResponse": "That’s upsetting. Do you want to talk it through?",
+    "responseOptions": [
+      "Siblings fight all the time.",
+      "That’s upsetting. Do you want to talk it through?",
+      "Forget about it."
+    ],
+    "traitImpact": {"compassion": 2, "active_listening": 2}
+  },
+  {
+    "levelId": "er_medium_8",
+    "message": "I feel burnt out at work.",
+    "correctResponse": "Burnout is tough. Maybe take small breaks?",
+    "responseOptions": [
+      "Everyone feels that way.",
+      "Burnout is tough. Maybe take small breaks?",
+      "Just quit."
+    ],
+    "traitImpact": {"empathy": 2, "problem_solving": 1}
+  },
+  {
+    "levelId": "er_medium_9",
+    "message": "I embarrassed myself in public.",
+    "correctResponse": "That must feel tough. Want to share what happened?",
+    "responseOptions": [
+      "People forget quickly.",
+      "That must feel tough. Want to share what happened?",
+      "You’re overthinking."
+    ],
+    "traitImpact": {"empathy": 2, "active_listening": 2}
+  },
+  {
+    "levelId": "er_medium_10",
+    "message": "I feel stuck in my career.",
+    "correctResponse": "That’s hard. Want to brainstorm next steps?",
+    "responseOptions": [
+      "Just keep going.",
+      "That’s hard. Want to brainstorm next steps?",
+      "Careers are always slow."
+    ],
+    "traitImpact": {"problem_solving": 2, "empathy": 2}
+  },
+  {
+    "levelId": "er_medium_11",
+    "message": "I feel excluded from my friend group.",
+    "correctResponse": "That must be painful. Want to talk about it?",
+    "responseOptions": [
+      "Make new friends.",
+      "That must be painful. Want to talk about it?",
+      "It’s not a big deal."
+    ],
+    "traitImpact": {"empathy": 3, "communication": 2}
+  },
+  {
+    "levelId": "er_medium_12",
+    "message": "I don’t have time for hobbies anymore.",
+    "correctResponse": "That sounds draining. Maybe carve out small moments?",
+    "responseOptions": [
+      "Hobbies aren’t important.",
+      "That sounds draining. Maybe carve out small moments?",
+      "Work is priority."
+    ],
+    "traitImpact": {"empathy": 2, "problem_solving": 1}
+  },
+  {
+    "levelId": "er_medium_13",
+    "message": "I feel anxious before interviews.",
+    "correctResponse": "That’s normal. Want to practice together?",
+    "responseOptions": [
+      "Everyone gets nervous.",
+      "That’s normal. Want to practice together?",
+      "Just relax."
+    ],
+    "traitImpact": {"compassion": 2, "communication": 2}
+  },
+  {
+    "levelId": "er_medium_14",
+    "message": "I got rejected from a job.",
+    "correctResponse": "That must sting. Want to go over your resume?",
+    "responseOptions": [
+      "Try harder.",
+      "That must sting. Want to go over your resume?",
+      "Rejections are normal."
+    ],
+    "traitImpact": {"empathy": 3, "problem_solving": 2}
+  },
+  {
+    "levelId": "er_medium_15",
+    "message": "I feel nervous talking to strangers.",
+    "correctResponse": "That’s common. Want to role-play some practice?",
+    "responseOptions": [
+      "Get over it.",
+      "That’s common. Want to role-play some practice?",
+      "Don’t worry about it."
+    ],
+    "traitImpact": {"communication": 2, "empathy": 2}
+  },
+
+  {
+    "levelId": "er_hard_1",
+    "message": "I feel disconnected from everyone.",
+    "correctResponse": "That sounds painful. I’m here to listen, maybe talking to a professional could help too.",
+    "responseOptions": [
+      "Find a hobby.",
+      "Everyone feels like that.",
+      "That sounds painful. I’m here to listen, maybe talking to a professional could help too."
+    ],
+    "traitImpact": {"empathy": 5, "active_listening": 4, "emotional_intelligence": 4, "compassion": 4}
+  },
+  {
+    "levelId": "er_hard_2",
+    "message": "My family issues feel like my fault.",
+    "correctResponse": "You’re carrying a lot, but it’s not just on you. How can I support you?",
+    "responseOptions": [
+      "Just say sorry.",
+      "Don’t blame yourself.",
+      "You’re carrying a lot, but it’s not just on you. How can I support you?"
+    ],
+    "traitImpact": {"empathy": 4, "communication": 4, "emotional_intelligence": 4}
+  },
+  {
+    "levelId": "er_hard_3",
+    "message": "I’m stuck in an ethical dilemma at work.",
+    "correctResponse": "That’s tough. Let’s look at consequences and maybe seek advice.",
+    "responseOptions": [
+      "Do what helps you.",
+      "Always do right.",
+      "That’s tough. Let’s look at consequences and maybe seek advice."
+    ],
+    "traitImpact": {"active_listening": 4, "problem_solving": 3, "critical_thinking": 3, "empathy": 3}
+  },
+  {
+    "levelId": "er_hard_4",
+    "message": "I feel judged all the time.",
+    "correctResponse": "That’s heavy. What might help you feel more at ease?",
+    "responseOptions": [
+      "Ignore it.",
+      "Everyone gets judged.",
+      "That’s heavy. What might help you feel more at ease?"
+    ],
+    "traitImpact": {"empathy": 4, "emotional_intelligence": 4, "communication": 3}
+  },
+  {
+    "levelId": "er_hard_5",
+    "message": "My illness makes life feel out of control.",
+    "correctResponse": "That’s really tough. What small things could help you feel more in control?",
+    "responseOptions": [
+      "Stay positive.",
+      "Others have it worse.",
+      "That’s really tough. What small things could help you feel more in control?"
+    ],
+    "traitImpact": {"empathy": 5, "compassion": 4, "active_listening": 4, "problem_solving": 3}
+  },
+  {
+    "levelId": "er_hard_6",
+    "message": "I lost someone close to me.",
+    "correctResponse": "I’m so sorry for your loss. I’m here if you need to talk.",
+    "responseOptions": [
+      "It happens.",
+      "I’m so sorry for your loss. I’m here if you need to talk.",
+      "Be strong."
+    ],
+    "traitImpact": {"compassion": 5, "empathy": 5, "active_listening": 4}
+  },
+  {
+    "levelId": "er_hard_7",
+    "message": "I don’t feel good enough.",
+    "correctResponse": "That must be painful. You have strengths—want me to remind you?",
+    "responseOptions": [
+      "Everyone feels that way.",
+      "That must be painful. You have strengths—want me to remind you?",
+      "Don’t think like that."
+    ],
+    "traitImpact": {"empathy": 4, "emotional_intelligence": 3}
+  },
+  {
+    "levelId": "er_hard_8",
+    "message": "I’m scared of the future.",
+    "correctResponse": "It’s okay to feel that fear. Want to talk through what worries you most?",
+    "responseOptions": [
+      "Everyone is scared.",
+      "It’s okay to feel that fear. Want to talk through what worries you most?",
+      "Ignore it."
+    ],
+    "traitImpact": {"empathy": 4, "communication": 3}
+  },
+  {
+    "levelId": "er_hard_9",
+    "message": "I feel like giving up.",
+    "correctResponse": "I hear you. You’re not alone—do you want to talk more about it?",
+    "responseOptions": [
+      "Don’t say that.",
+      "I hear you. You’re not alone—do you want to talk more about it?",
+      "Push through."
+    ],
+    "traitImpact": {"empathy": 5, "active_listening": 4, "compassion": 4}
+  },
+  {
+    "levelId": "er_hard_10",
+    "message": "I’m scared to ask for help.",
+    "correctResponse": "That’s understandable. Asking for help takes courage—what’s one small step you’d feel okay with?",
+    "responseOptions": [
+      "Just ask.",
+      "That’s understandable. Asking for help takes courage—what’s one small step you’d feel okay with?",
+      "Don’t overthink."
+    ],
+    "traitImpact": {"empathy": 4, "communication": 4, "emotional_intelligence": 3}
+  }
+]

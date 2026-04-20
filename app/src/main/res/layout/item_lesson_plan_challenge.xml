@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/rounded_card_background"
+    android:layout_marginBottom="16dp">
+
+    <!-- Topic -->
+    <TextView
+        android:id="@+id/tvTopic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Topic"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_light"
+        android:layout_marginBottom="8dp" />
+
+    <!-- Objectives -->
+    <TextView
+        android:id="@+id/tvObjectives"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Objectives"
+        android:textSize="16sp"
+        android:textColor="@color/text_medium"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Activities will be added dynamically -->
+    <LinearLayout
+        android:id="@+id/llActivitiesContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="12dp" />
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnSubmitOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit_order"
+        android:background="@drawable/rounded_button_background"
+        android:textColor="@color/button_text_light" />
+
+</LinearLayout>

@@ -1,0 +1,266 @@
+[
+  {
+    "patientSymptoms": ["fever", "headache", "muscle aches", "fatigue"],
+    "diagnosisOptions": ["Common Cold", "Flu", "Food Poisoning", "Allergies"],
+    "correctDiagnosis": "Flu",
+    "explanation": "Fever, headache, muscle aches, and fatigue are typical flu symptoms."
+  },
+  {
+    "patientSymptoms": ["chest pain", "shortness of breath", "sweating", "rapid heartbeat"],
+    "diagnosisOptions": ["Heart Attack", "Anxiety", "Asthma", "High Blood Pressure"],
+    "correctDiagnosis": "Heart Attack",
+    "explanation": "Chest pain with shortness of breath and sweating suggests cardiac emergency."
+  },
+  {
+    "patientSymptoms": ["runny nose", "sneezing", "itchy eyes", "scratchy throat"],
+    "diagnosisOptions": ["Cold", "Allergies", "Sinus Infection", "Strep Throat"],
+    "correctDiagnosis": "Allergies",
+    "explanation": "Runny nose, sneezing, and itchy eyes are typical allergy symptoms."
+  },
+  {
+    "patientSymptoms": ["nausea", "vomiting", "diarrhea", "stomach cramps"],
+    "diagnosisOptions": ["Food Poisoning", "Stomach Flu", "Appendicitis", "Ulcer"],
+    "correctDiagnosis": "Food Poisoning",
+    "explanation": "Nausea, vomiting, diarrhea, and cramps suggest foodborne illness."
+  },
+  {
+    "patientSymptoms": ["severe headache", "neck stiffness", "sensitivity to light", "fever"],
+    "diagnosisOptions": ["Migraine", "Tension Headache", "Meningitis", "Sinus Headache"],
+    "correctDiagnosis": "Meningitis",
+    "explanation": "Severe headache with neck stiffness and light sensitivity indicates meningitis."
+  },
+  {
+    "patientSymptoms": ["wheezing", "difficulty breathing", "chest tightness", "coughing"],
+    "diagnosisOptions": ["Asthma", "Pneumonia", "Bronchitis", "Cold"],
+    "correctDiagnosis": "Asthma",
+    "explanation": "Wheezing and chest tightness are classic asthma symptoms."
+  },
+  {
+    "patientSymptoms": ["joint pain", "morning stiffness", "swelling", "limited motion"],
+    "diagnosisOptions": ["Arthritis", "Muscle Strain", "Fracture", "Tendonitis"],
+    "correctDiagnosis": "Arthritis",
+    "explanation": "Joint pain with morning stiffness and swelling suggests arthritis."
+  },
+  {
+    "patientSymptoms": ["rash", "itching", "redness", "burning sensation"],
+    "diagnosisOptions": ["Eczema", "Poison Ivy", "Sunburn", "Allergic Reaction"],
+    "correctDiagnosis": "Allergic Reaction",
+    "explanation": "Rash with itching and redness indicates allergic reaction."
+  },
+  {
+    "patientSymptoms": ["excessive thirst", "frequent urination", "fatigue", "blurred vision"],
+    "diagnosisOptions": ["Diabetes", "Kidney Disease", "Dehydration", "UTI"],
+    "correctDiagnosis": "Diabetes",
+    "explanation": "Excessive thirst and urination with fatigue suggest diabetes."
+  },
+  {
+    "patientSymptoms": ["persistent cough", "weight loss", "night sweats", "fatigue"],
+    "diagnosisOptions": ["Tuberculosis", "Cold", "Bronchitis", "Pneumonia"],
+    "correctDiagnosis": "Tuberculosis",
+    "explanation": "Cough, weight loss, and night sweats indicate TB infection."
+  },
+  {
+    "patientSymptoms": ["sore throat", "fever", "swollen lymph nodes", "white patches in throat"],
+    "diagnosisOptions": ["Strep Throat", "Cold", "Flu", "Allergies"],
+    "correctDiagnosis": "Strep Throat",
+    "explanation": "Sore throat with fever and white patches indicates strep infection."
+  },
+  {
+    "patientSymptoms": ["abdominal pain", "bloating", "gas", "diarrhea after meals"],
+    "diagnosisOptions": ["IBS", "Food Poisoning", "Ulcer", "Crohn's Disease"],
+    "correctDiagnosis": "IBS",
+    "explanation": "Abdominal discomfort and irregular bowel habits suggest IBS."
+  },
+  {
+    "patientSymptoms": ["frequent urination", "burning sensation", "lower abdominal pain", "cloudy urine"],
+    "diagnosisOptions": ["UTI", "Kidney Stones", "Diabetes", "Cystitis"],
+    "correctDiagnosis": "UTI",
+    "explanation": "Painful urination with frequent urination indicates UTI."
+  },
+  {
+    "patientSymptoms": ["blurred vision", "headache", "nausea", "eye strain"],
+    "diagnosisOptions": ["Migraine", "Glaucoma", "Eye Strain", "Tension Headache"],
+    "correctDiagnosis": "Migraine",
+    "explanation": "Severe headache with visual disturbances suggests migraine."
+  },
+  {
+    "patientSymptoms": ["fatigue", "pale skin", "shortness of breath", "dizziness"],
+    "diagnosisOptions": ["Anemia", "Hypothyroidism", "Diabetes", "Depression"],
+    "correctDiagnosis": "Anemia",
+    "explanation": "Fatigue with pale skin and dizziness indicates anemia."
+  },
+  {
+    "patientSymptoms": ["sneezing", "runny nose", "nasal congestion", "itchy eyes"],
+    "diagnosisOptions": ["Allergies", "Cold", "Flu", "Sinus Infection"],
+    "correctDiagnosis": "Allergies",
+    "explanation": "Classic allergy symptoms include sneezing and itchy eyes."
+  },
+  {
+    "patientSymptoms": ["fever", "chills", "sweating", "body aches", "cough"],
+    "diagnosisOptions": ["Flu", "Cold", "Pneumonia", "Bronchitis"],
+    "correctDiagnosis": "Flu",
+    "explanation": "Fever with body aches and cough is typical for influenza."
+  },
+  {
+    "patientSymptoms": ["sudden weakness", "drooping face", "slurred speech", "numbness in limbs"],
+    "diagnosisOptions": ["Stroke", "Migraine", "Seizure", "Heart Attack"],
+    "correctDiagnosis": "Stroke",
+    "explanation": "Sudden neurological deficits suggest a stroke."
+  },
+  {
+    "patientSymptoms": ["persistent cough", "fever", "chest pain", "shortness of breath"],
+    "diagnosisOptions": ["Pneumonia", "Bronchitis", "Cold", "Flu"],
+    "correctDiagnosis": "Pneumonia",
+    "explanation": "Cough, fever, and chest pain indicate possible pneumonia."
+  },
+  {
+    "patientSymptoms": ["abdominal pain", "vomiting", "fever", "diarrhea"],
+    "diagnosisOptions": ["Gastroenteritis", "Food Poisoning", "Ulcer", "Appendicitis"],
+    "correctDiagnosis": "Gastroenteritis",
+    "explanation": "Vomiting and diarrhea with fever suggest gastroenteritis."
+  },
+  {
+    "patientSymptoms": ["frequent headaches", "visual disturbances", "nausea", "sensitivity to light"],
+    "diagnosisOptions": ["Migraine", "Tension Headache", "Cluster Headache", "Sinus Headache"],
+    "correctDiagnosis": "Migraine",
+    "explanation": "Headaches with visual changes and nausea indicate migraine."
+  },
+  {
+    "patientSymptoms": ["persistent heartburn", "acid reflux", "chest discomfort", "bitter taste"],
+    "diagnosisOptions": ["GERD", "Ulcer", "Heart Attack", "Indigestion"],
+    "correctDiagnosis": "GERD",
+    "explanation": "Acid reflux and heartburn indicate gastroesophageal reflux disease."
+  },
+  {
+    "patientSymptoms": ["joint swelling", "redness", "warmth", "pain in big toe"],
+    "diagnosisOptions": ["Gout", "Arthritis", "Fracture", "Tendonitis"],
+    "correctDiagnosis": "Gout",
+    "explanation": "Painful swelling in the big toe is typical for gout."
+  },
+  {
+    "patientSymptoms": ["frequent urination at night", "thirst", "weight loss", "fatigue"],
+    "diagnosisOptions": ["Diabetes", "Kidney Disease", "UTI", "Dehydration"],
+    "correctDiagnosis": "Diabetes",
+    "explanation": "Classic diabetes symptoms include polyuria, thirst, and fatigue."
+  },
+  {
+    "patientSymptoms": ["sudden severe headache", "nausea", "vomiting", "vision changes"],
+    "diagnosisOptions": ["Migraine", "Stroke", "Tension Headache", "Brain Aneurysm"],
+    "correctDiagnosis": "Brain Aneurysm",
+    "explanation": "Thunderclap headache with nausea and vision changes is alarming for aneurysm."
+  },
+  {
+    "patientSymptoms": ["fatigue", "weight gain", "cold intolerance", "dry skin"],
+    "diagnosisOptions": ["Hypothyroidism", "Anemia", "Diabetes", "Depression"],
+    "correctDiagnosis": "Hypothyroidism",
+    "explanation": "Slow metabolism symptoms suggest hypothyroidism."
+  },
+  {
+    "patientSymptoms": ["high fever", "rash", "joint pain", "red eyes"],
+    "diagnosisOptions": ["Dengue", "Measles", "Flu", "Chickenpox"],
+    "correctDiagnosis": "Dengue",
+    "explanation": "Fever with rash and joint pain is typical of dengue."
+  },
+  {
+    "patientSymptoms": ["abdominal pain in lower right side", "nausea", "fever", "loss of appetite"],
+    "diagnosisOptions": ["Appendicitis", "Food Poisoning", "IBS", "Kidney Stone"],
+    "correctDiagnosis": "Appendicitis",
+    "explanation": "Lower right abdominal pain with fever suggests appendicitis."
+  },
+  {
+    "patientSymptoms": ["chest tightness", "shortness of breath", "wheezing", "cough"],
+    "diagnosisOptions": ["Asthma", "Pneumonia", "Heart Attack", "Bronchitis"],
+    "correctDiagnosis": "Asthma",
+    "explanation": "Wheezing and chest tightness indicate asthma."
+  },
+  {
+    "patientSymptoms": ["frequent watery stools", "dehydration", "abdominal cramps", "fever"],
+    "diagnosisOptions": ["Cholera", "Food Poisoning", "Gastroenteritis", "IBS"],
+    "correctDiagnosis": "Cholera",
+    "explanation": "Profuse watery diarrhea with dehydration indicates cholera."
+  },
+  {
+    "patientSymptoms": ["yellow skin and eyes", "dark urine", "fatigue", "abdominal pain"],
+    "diagnosisOptions": ["Hepatitis", "Jaundice", "Gallstones", "Liver Disease"],
+    "correctDiagnosis": "Hepatitis",
+    "explanation": "Jaundice with abdominal pain suggests hepatitis."
+  },
+  {
+    "patientSymptoms": ["fever", "sore throat", "cough", "body aches"],
+    "diagnosisOptions": ["Flu", "Cold", "Strep Throat", "Pneumonia"],
+    "correctDiagnosis": "Flu",
+    "explanation": "Fever with body aches is typical for influenza."
+  },
+  {
+    "patientSymptoms": ["painful urination", "frequent urge to urinate", "lower back pain"],
+    "diagnosisOptions": ["UTI", "Kidney Infection", "Bladder Stones", "Diabetes"],
+    "correctDiagnosis": "UTI",
+    "explanation": "Painful urination with frequency suggests urinary tract infection."
+  },
+  {
+    "patientSymptoms": ["sudden confusion", "slurred speech", "weakness on one side", "facial droop"],
+    "diagnosisOptions": ["Stroke", "Migraine", "Seizure", "Hypoglycemia"],
+    "correctDiagnosis": "Stroke",
+    "explanation": "Acute neurological deficits indicate stroke."
+  },
+  {
+    "patientSymptoms": ["severe itching", "red rash", "swelling", "hives"],
+    "diagnosisOptions": ["Allergic Reaction", "Eczema", "Psoriasis", "Insect Bite"],
+    "correctDiagnosis": "Allergic Reaction",
+    "explanation": "Itchy red rash with swelling suggests an allergy."
+  },
+  {
+    "patientSymptoms": ["persistent dry cough", "shortness of breath", "chest discomfort", "fatigue"],
+    "diagnosisOptions": ["Pneumonia", "Bronchitis", "Asthma", "Tuberculosis"],
+    "correctDiagnosis": "Bronchitis",
+    "explanation": "Dry cough with chest discomfort and fatigue indicates bronchitis."
+  },
+  {
+    "patientSymptoms": ["headache", "sensitivity to light", "nausea", "blurred vision"],
+    "diagnosisOptions": ["Migraine", "Tension Headache", "Sinus Headache", "Cluster Headache"],
+    "correctDiagnosis": "Migraine",
+    "explanation": "Headache with visual disturbance and nausea indicates migraine."
+  },
+  {
+    "patientSymptoms": ["weight loss", "fatigue", "increased hunger", "frequent urination"],
+    "diagnosisOptions": ["Diabetes", "Hyperthyroidism", "Anemia", "Kidney Disease"],
+    "correctDiagnosis": "Diabetes",
+    "explanation": "Classic diabetes signs include polyuria, polydipsia, and weight loss."
+  },
+  {
+    "patientSymptoms": ["abdominal bloating", "gas", "diarrhea after eating", "stomach cramps"],
+    "diagnosisOptions": ["IBS", "Food Poisoning", "Celiac Disease", "Ulcer"],
+    "correctDiagnosis": "IBS",
+    "explanation": "Abdominal discomfort and bowel irregularities suggest IBS."
+  },
+  {
+    "patientSymptoms": ["fever", "chills", "cough with green mucus", "chest pain"],
+    "diagnosisOptions": ["Pneumonia", "Cold", "Flu", "Bronchitis"],
+    "correctDiagnosis": "Pneumonia",
+    "explanation": "Productive cough with fever and chest pain indicates pneumonia."
+  },
+  {
+    "patientSymptoms": ["abdominal pain", "nausea", "vomiting", "high fever"],
+    "diagnosisOptions": ["Appendicitis", "Food Poisoning", "Gastroenteritis", "Ulcer"],
+    "correctDiagnosis": "Appendicitis",
+    "explanation": "Lower abdominal pain with fever is a sign of appendicitis."
+  },
+  {
+    "patientSymptoms": ["pain in joints", "swelling", "morning stiffness", "difficulty moving"],
+    "diagnosisOptions": ["Arthritis", "Fracture", "Tendonitis", "Muscle Strain"],
+    "correctDiagnosis": "Arthritis",
+    "explanation": "Joint pain with stiffness indicates arthritis."
+  },
+  {
+    "patientSymptoms": ["sneezing", "runny nose", "nasal congestion", "watery eyes"],
+    "diagnosisOptions": ["Allergies", "Cold", "Sinus Infection", "Flu"],
+    "correctDiagnosis": "Allergies",
+    "explanation": "Sneezing and watery eyes are typical allergy signs."
+  },
+  {
+    "patientSymptoms": ["sudden severe headache", "nausea", "vomiting", "vision problems"],
+    "diagnosisOptions": ["Migraine", "Brain Aneurysm", "Stroke", "Tension Headache"],
+    "correctDiagnosis": "Brain Aneurysm",
+    "explanation": "Thunderclap headache with nausea and vision issues is alarming."
+  }
+]

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_card_background"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/tvDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Select Your Avatar"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/neonPink"
+        android:layout_marginBottom="16dp" />
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:id="@+id/avatarContainer"
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/avatar_1"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/avatar_1"
+                android:background="@drawable/avatar_selector_background"
+                android:contentDescription="@string/avatar_1_desc"
+                android:layout_margin="6dp" />
+
+            <ImageView
+                android:id="@+id/avatar_2"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/avatar_2"
+                android:background="@drawable/avatar_selector_background"
+                android:contentDescription="@string/avatar_2_desc"
+                android:layout_margin="6dp" />
+
+            <ImageView
+                android:id="@+id/avatar_3"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/avatar_3"
+                android:background="@drawable/avatar_selector_background"
+                android:contentDescription="@string/avatar_3_desc"
+                android:layout_margin="6dp" />
+
+            <ImageView
+                android:id="@+id/avatar_4"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/avatar_4"
+                android:background="@drawable/avatar_selector_background"
+                android:contentDescription="@string/avatar_4_desc"
+                android:layout_margin="6dp" />
+
+            <ImageView
+                android:id="@+id/avatar_5"
+                android:layout_width="72dp"
+                android:layout_height="72dp"
+                android:src="@drawable/avatar_5"
+                android:background="@drawable/avatar_selector_background"
+                android:contentDescription="@string/avatar_5_desc"
+                android:layout_margin="6dp" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confirm"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/neonPink"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="24dp" />
+</LinearLayout>

@@ -1,0 +1,10 @@
+<!-- res/drawable/ripple_round.xml -->
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@android:color/white">
+    <item android:id="@android:id/mask">
+        <shape android:shape="rectangle">
+            <corners android:radius="24dp"/>
+            <solid android:color="@android:color/white"/>
+        </shape>
+    </item>
+</ripple>

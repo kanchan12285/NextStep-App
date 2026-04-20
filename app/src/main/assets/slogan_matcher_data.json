@@ -1,0 +1,222 @@
+[
+  {
+    "companyName": "Solarix",
+    "description": "Eco-friendly solar gadget company making portable solar panels",
+    "correctSlogan": "Power Your Day with the Sun",
+    "sloganOptions": [
+      "Power Your Day with the Sun",
+      "Stay Cool, Stay Fresh",
+      "Move Fast, Stay Ahead",
+      "Taste the Adventure"
+    ]
+  },
+  {
+    "companyName": "AeroZap",
+    "description": "Electric scooter brand designed for city commuters",
+    "correctSlogan": "Ride the Future",
+    "sloganOptions": [
+      "Ride the Future",
+      "Fashion Meets Comfort",
+      "Eco Style, Everyday",
+      "Fuel Your Imagination"
+    ]
+  },
+  {
+    "companyName": "GreenSip",
+    "description": "Organic beverage company selling healthy smoothies",
+    "correctSlogan": "Sip Healthy, Live Happy",
+    "sloganOptions": [
+      "Sip Healthy, Live Happy",
+      "Ignite Your Energy",
+      "Adventure in Every Bite",
+      "Feel the Power"
+    ]
+  },
+  {
+    "companyName": "TechNova",
+    "description": "High-end wearable tech for fitness and lifestyle tracking",
+    "correctSlogan": "Your Life, Tracked",
+    "sloganOptions": [
+      "Your Life, Tracked",
+      "Step Into Comfort",
+      "Think Big, Go Far",
+      "Refresh Your World"
+    ]
+  },
+  {
+    "companyName": "PixelMate",
+    "description": "Creative software for digital artists and designers",
+    "correctSlogan": "Unleash Your Imagination",
+    "sloganOptions": [
+      "Unleash Your Imagination",
+      "Power On the Go",
+      "Eat Fresh, Stay Strong",
+      "Drive the Dream"
+    ]
+  },
+  {
+    "companyName": "CloudNest",
+    "description": "Smart home devices that connect all appliances wirelessly",
+    "correctSlogan": "Home in Harmony",
+    "sloganOptions": [
+      "Home in Harmony",
+      "Taste the Adventure",
+      "Innovation That Moves You",
+      "Step Into Comfort"
+    ]
+  },
+  {
+    "companyName": "AquaPure",
+    "description": "Water purification company providing safe drinking solutions",
+    "correctSlogan": "Drink Pure, Live Pure",
+    "sloganOptions": [
+      "Drink Pure, Live Pure",
+      "Feel the Freedom",
+      "Charge Ahead",
+      "Glow Naturally"
+    ]
+  },
+  {
+    "companyName": "SpeedLoom",
+    "description": "Electric bicycles for urban travelers who want speed and comfort",
+    "correctSlogan": "Ride Fast, Live Free",
+    "sloganOptions": [
+      "Ride Fast, Live Free",
+      "Think Bold, Act Fast",
+      "Power in Every Sip",
+      "Adventure Awaits"
+    ]
+  },
+  {
+    "companyName": "Glowify",
+    "description": "Beauty brand focused on natural skincare products",
+    "correctSlogan": "Glow Naturally",
+    "sloganOptions": [
+      "Glow Naturally",
+      "Fuel Your Journey",
+      "Ride the Future",
+      "Step Into Style"
+    ]
+  },
+  {
+    "companyName": "Snackaroo",
+    "description": "Fun snack brand for kids with playful packaging",
+    "correctSlogan": "Snack Happy, Play More",
+    "sloganOptions": [
+      "Snack Happy, Play More",
+      "Charge Ahead",
+      "Step Into Comfort",
+      "Unleash Your Imagination"
+    ]
+  },
+  {
+    "companyName": "EcoTrak",
+    "description": "Smart tracking devices for eco-conscious travelers",
+    "correctSlogan": "Track Smart, Travel Green",
+    "sloganOptions": [
+      "Track Smart, Travel Green",
+      "Power Your Day with the Sun",
+      "Taste the Adventure",
+      "Ride Fast, Live Free"
+    ]
+  },
+  {
+    "companyName": "ZenWave",
+    "description": "Audio devices designed for relaxation and meditation",
+    "correctSlogan": "Find Your Inner Calm",
+    "sloganOptions": [
+      "Find Your Inner Calm",
+      "Glow Naturally",
+      "Your Life, Tracked",
+      "Step Into Comfort"
+    ]
+  },
+  {
+    "companyName": "SkyLoom",
+    "description": "Drone manufacturer specializing in aerial photography",
+    "correctSlogan": "Capture the Sky",
+    "sloganOptions": [
+      "Capture the Sky",
+      "Power in Every Sip",
+      "Eat Fresh, Stay Strong",
+      "Ride the Future"
+    ]
+  },
+  {
+    "companyName": "FitPulse",
+    "description": "Fitness wearable tracking heart rate, steps, and sleep patterns",
+    "correctSlogan": "Stay Fit, Stay Strong",
+    "sloganOptions": [
+      "Stay Fit, Stay Strong",
+      "Glow Naturally",
+      "Home in Harmony",
+      "Snack Happy, Play More"
+    ]
+  },
+  {
+    "companyName": "LumoLamp",
+    "description": "Smart lighting solutions for modern homes and offices",
+    "correctSlogan": "Light Up Life",
+    "sloganOptions": [
+      "Light Up Life",
+      "Fuel Your Journey",
+      "Ride Fast, Live Free",
+      "Capture the Sky"
+    ]
+  },
+  {
+    "companyName": "MindScribe",
+    "description": "Note-taking app for students and professionals",
+    "correctSlogan": "Write Smart, Think Big",
+    "sloganOptions": [
+      "Write Smart, Think Big",
+      "Power Your Day with the Sun",
+      "Glow Naturally",
+      "Track Smart, Travel Green"
+    ]
+  },
+  {
+    "companyName": "AquaFresh",
+    "description": "Eco-friendly bottled water brand",
+    "correctSlogan": "Pure Taste, Pure Life",
+    "sloganOptions": [
+      "Pure Taste, Pure Life",
+      "Eat Fresh, Stay Strong",
+      "Step Into Comfort",
+      "Ride the Future"
+    ]
+  },
+  {
+    "companyName": "RoboChef",
+    "description": "Smart kitchen robot that helps cook meals automatically",
+    "correctSlogan": "Cooking Made Easy",
+    "sloganOptions": [
+      "Cooking Made Easy",
+      "Track Smart, Travel Green",
+      "Glow Naturally",
+      "Find Your Inner Calm"
+    ]
+  },
+  {
+    "companyName": "EcoDrive",
+    "description": "Electric car brand focusing on green energy solutions",
+    "correctSlogan": "Drive Clean, Go Green",
+    "sloganOptions": [
+      "Drive Clean, Go Green",
+      "Step Into Style",
+      "Power Your Day with the Sun",
+      "Home in Harmony"
+    ]
+  },
+  {
+    "companyName": "Snacktopia",
+    "description": "Gourmet snack subscription box delivered monthly",
+    "correctSlogan": "Treat Yourself, Every Month",
+    "sloganOptions": [
+      "Treat Yourself, Every Month",
+      "Ride the Future",
+      "Glow Naturally",
+      "Fuel Your Journey"
+    ]
+  }
+]

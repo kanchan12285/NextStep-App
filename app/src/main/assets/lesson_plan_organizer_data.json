@@ -1,0 +1,572 @@
+[
+  {
+    "levelId": "lpo_1",
+    "topic": "College Fest",
+    "objectives": "Plan and organize a successful college fest.",
+    "activities": [
+      { "name": "Planning", "durationMinutes": 5 },
+      { "name": "Gathering Sponsors", "durationMinutes": 7 },
+      { "name": "PR & Marketing", "durationMinutes": 8 },
+      { "name": "Execution of Event", "durationMinutes": 10 },
+      { "name": "Feedback & Closing", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Planning",
+      "Gathering Sponsors",
+      "PR & Marketing",
+      "Execution of Event",
+      "Feedback & Closing"
+    ]
+  },
+  {
+    "levelId": "lpo_2",
+    "topic": "Sports Day",
+    "objectives": "Organize a school sports day with smooth scheduling.",
+    "activities": [
+      { "name": "Planning Schedule", "durationMinutes": 5 },
+      { "name": "Arranging Equipment", "durationMinutes": 6 },
+      { "name": "Team Registration", "durationMinutes": 7 },
+      { "name": "Conducting Events", "durationMinutes": 10 },
+      { "name": "Award Ceremony", "durationMinutes": 6 }
+    ],
+    "correctOrder": [
+      "Planning Schedule",
+      "Arranging Equipment",
+      "Team Registration",
+      "Conducting Events",
+      "Award Ceremony"
+    ]
+  },
+  {
+    "levelId": "lpo_3",
+    "topic": "Tech Seminar",
+    "objectives": "Successfully plan a technical seminar.",
+    "activities": [
+      { "name": "Topic Selection", "durationMinutes": 5 },
+      { "name": "Inviting Speakers", "durationMinutes": 6 },
+      { "name": "Promotions", "durationMinutes": 6 },
+      { "name": "Seminar Execution", "durationMinutes": 10 },
+      { "name": "Q&A and Feedback", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Topic Selection",
+      "Inviting Speakers",
+      "Promotions",
+      "Seminar Execution",
+      "Q&A and Feedback"
+    ]
+  },
+  {
+    "levelId": "lpo_4",
+    "topic": "Birthday Party",
+    "objectives": "Organize a fun-filled birthday party.",
+    "activities": [
+      { "name": "Theme Selection", "durationMinutes": 4 },
+      { "name": "Invitations", "durationMinutes": 5 },
+      { "name": "Decorations", "durationMinutes": 6 },
+      { "name": "Games and Activities", "durationMinutes": 8 },
+      { "name": "Cake Cutting & Celebration", "durationMinutes": 7 }
+    ],
+    "correctOrder": [
+      "Theme Selection",
+      "Invitations",
+      "Decorations",
+      "Games and Activities",
+      "Cake Cutting & Celebration"
+    ]
+  },
+  {
+    "levelId": "lpo_5",
+    "topic": "Wedding Ceremony",
+    "objectives": "Plan the wedding events in proper order.",
+    "activities": [
+      { "name": "Venue Booking", "durationMinutes": 6 },
+      { "name": "Invitations", "durationMinutes": 7 },
+      { "name": "Decorations", "durationMinutes": 8 },
+      { "name": "Wedding Rituals", "durationMinutes": 10 },
+      { "name": "Reception", "durationMinutes": 7 }
+    ],
+    "correctOrder": [
+      "Venue Booking",
+      "Invitations",
+      "Decorations",
+      "Wedding Rituals",
+      "Reception"
+    ]
+  },
+  {
+    "levelId": "lpo_6",
+    "topic": "Picnic",
+    "objectives": "Plan a school/college picnic.",
+    "activities": [
+      { "name": "Choosing Location", "durationMinutes": 4 },
+      { "name": "Permission & Budgeting", "durationMinutes": 5 },
+      { "name": "Transport Arrangements", "durationMinutes": 6 },
+      { "name": "Fun Activities", "durationMinutes": 7 },
+      { "name": "Return Journey", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Choosing Location",
+      "Permission & Budgeting",
+      "Transport Arrangements",
+      "Fun Activities",
+      "Return Journey"
+    ]
+  },
+  {
+    "levelId": "lpo_7",
+    "topic": "Science Exhibition",
+    "objectives": "Organize a school science exhibition.",
+    "activities": [
+      { "name": "Project Selection", "durationMinutes": 5 },
+      { "name": "Model Preparation", "durationMinutes": 7 },
+      { "name": "Stall Setup", "durationMinutes": 6 },
+      { "name": "Judging & Presentation", "durationMinutes": 8 },
+      { "name": "Prize Distribution", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Project Selection",
+      "Model Preparation",
+      "Stall Setup",
+      "Judging & Presentation",
+      "Prize Distribution"
+    ]
+  },
+  {
+    "levelId": "lpo_8",
+    "topic": "Hackathon",
+    "objectives": "Organize a coding hackathon event.",
+    "activities": [
+      { "name": "Problem Statement Release", "durationMinutes": 4 },
+      { "name": "Team Registrations", "durationMinutes": 6 },
+      { "name": "Coding Round", "durationMinutes": 10 },
+      { "name": "Demo & Presentation", "durationMinutes": 8 },
+      { "name": "Winner Announcement", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Problem Statement Release",
+      "Team Registrations",
+      "Coding Round",
+      "Demo & Presentation",
+      "Winner Announcement"
+    ]
+  },
+  {
+    "levelId": "lpo_9",
+    "topic": "Conference",
+    "objectives": "Plan and conduct a formal conference.",
+    "activities": [
+      { "name": "Agenda Planning", "durationMinutes": 6 },
+      { "name": "Speaker Invitations", "durationMinutes": 7 },
+      { "name": "Logistics Arrangements", "durationMinutes": 6 },
+      { "name": "Conference Execution", "durationMinutes": 9 },
+      { "name": "Closing & Networking", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Agenda Planning",
+      "Speaker Invitations",
+      "Logistics Arrangements",
+      "Conference Execution",
+      "Closing & Networking"
+    ]
+  },
+  {
+    "levelId": "lpo_10",
+    "topic": "Farewell Party",
+    "objectives": "Plan a memorable farewell for seniors.",
+    "activities": [
+      { "name": "Theme Planning", "durationMinutes": 4 },
+      { "name": "Invitations & Posters", "durationMinutes": 5 },
+      { "name": "Cultural Performances", "durationMinutes": 7 },
+      { "name": "Farewell Speeches", "durationMinutes": 6 },
+      { "name": "Dance & Dinner", "durationMinutes": 8 }
+    ],
+    "correctOrder": [
+      "Theme Planning",
+      "Invitations & Posters",
+      "Cultural Performances",
+      "Farewell Speeches",
+      "Dance & Dinner"
+    ]
+  },
+  {
+    "levelId": "lpo_11",
+    "topic": "Food Festival",
+    "objectives": "Organize a fun and engaging food fest.",
+    "activities": [
+      { "name": "Planning Stalls", "durationMinutes": 5 },
+      { "name": "Gathering Vendors", "durationMinutes": 7 },
+      { "name": "Marketing & Promotions", "durationMinutes": 6 },
+      { "name": "Event Execution", "durationMinutes": 10 },
+      { "name": "Feedback Collection", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Planning Stalls",
+      "Gathering Vendors",
+      "Marketing & Promotions",
+      "Event Execution",
+      "Feedback Collection"
+    ]
+  },
+  {
+    "levelId": "lpo_12",
+    "topic": "Book Fair",
+    "objectives": "Organize a school book fair.",
+    "activities": [
+      { "name": "Publisher Invitations", "durationMinutes": 5 },
+      { "name": "Stall Setup", "durationMinutes": 6 },
+      { "name": "Event Inauguration", "durationMinutes": 7 },
+      { "name": "Book Sales & Interactions", "durationMinutes": 9 },
+      { "name": "Closing Ceremony", "durationMinutes": 6 }
+    ],
+    "correctOrder": [
+      "Publisher Invitations",
+      "Stall Setup",
+      "Event Inauguration",
+      "Book Sales & Interactions",
+      "Closing Ceremony"
+    ]
+  },
+  {
+    "levelId": "lpo_13",
+    "topic": "Music Concert",
+    "objectives": "Organize a live music concert.",
+    "activities": [
+      { "name": "Artist Booking", "durationMinutes": 7 },
+      { "name": "Venue Setup", "durationMinutes": 8 },
+      { "name": "Ticket Sales", "durationMinutes": 6 },
+      { "name": "Concert Performance", "durationMinutes": 12 },
+      { "name": "Closing", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Artist Booking",
+      "Venue Setup",
+      "Ticket Sales",
+      "Concert Performance",
+      "Closing"
+    ]
+  },
+  {
+    "levelId": "lpo_14",
+    "topic": "Blood Donation Camp",
+    "objectives": "Organize a community blood donation camp.",
+    "activities": [
+      { "name": "Partnering with Hospital", "durationMinutes": 6 },
+      { "name": "Promotions & Registrations", "durationMinutes": 7 },
+      { "name": "Setup Camp", "durationMinutes": 6 },
+      { "name": "Blood Donation Drive", "durationMinutes": 10 },
+      { "name": "Thanking Volunteers", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Partnering with Hospital",
+      "Promotions & Registrations",
+      "Setup Camp",
+      "Blood Donation Drive",
+      "Thanking Volunteers"
+    ]
+  },
+  {
+    "levelId": "lpo_15",
+    "topic": "Cleanliness Drive",
+    "objectives": "Organize a community cleaning activity.",
+    "activities": [
+      { "name": "Area Selection", "durationMinutes": 4 },
+      { "name": "Volunteer Gathering", "durationMinutes": 5 },
+      { "name": "Arranging Cleaning Equipment", "durationMinutes": 6 },
+      { "name": "Executing Cleaning Drive", "durationMinutes": 9 },
+      { "name": "Waste Disposal & Wrap-up", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Area Selection",
+      "Volunteer Gathering",
+      "Arranging Cleaning Equipment",
+      "Executing Cleaning Drive",
+      "Waste Disposal & Wrap-up"
+    ]
+  },
+  {
+    "levelId": "lpo_16",
+    "topic": "Charity Event",
+    "objectives": "Plan and organize a charity fundraiser.",
+    "activities": [
+      { "name": "Cause Selection", "durationMinutes": 5 },
+      { "name": "Fund Collection", "durationMinutes": 6 },
+      { "name": "Event Promotions", "durationMinutes": 7 },
+      { "name": "Execution", "durationMinutes": 9 },
+      { "name": "Donation Handover", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Cause Selection",
+      "Fund Collection",
+      "Event Promotions",
+      "Execution",
+      "Donation Handover"
+    ]
+  },
+  {
+    "levelId": "lpo_17",
+    "topic": "Startup Pitch Event",
+    "objectives": "Organize a pitch event for startups.",
+    "activities": [
+      { "name": "Inviting Startups", "durationMinutes": 6 },
+      { "name": "Panel Setup", "durationMinutes": 5 },
+      { "name": "Startup Pitches", "durationMinutes": 9 },
+      { "name": "Q&A with Investors", "durationMinutes": 8 },
+      { "name": "Winner Announcement", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Inviting Startups",
+      "Panel Setup",
+      "Startup Pitches",
+      "Q&A with Investors",
+      "Winner Announcement"
+    ]
+  },
+  {
+    "levelId": "lpo_18",
+    "topic": "Dance Competition",
+    "objectives": "Organize a school/college dance competition.",
+    "activities": [
+      { "name": "Registrations", "durationMinutes": 5 },
+      { "name": "Stage Setup", "durationMinutes": 6 },
+      { "name": "Dance Performances", "durationMinutes": 9 },
+      { "name": "Judging Round", "durationMinutes": 7 },
+      { "name": "Prize Distribution", "durationMinutes": 6 }
+    ],
+    "correctOrder": [
+      "Registrations",
+      "Stage Setup",
+      "Dance Performances",
+      "Judging Round",
+      "Prize Distribution"
+    ]
+  },
+  {
+    "levelId": "lpo_19",
+    "topic": "Drama Competition",
+    "objectives": "Plan and conduct a drama event.",
+    "activities": [
+      { "name": "Script Selection", "durationMinutes": 5 },
+      { "name": "Team Practice", "durationMinutes": 7 },
+      { "name": "Stage Preparation", "durationMinutes": 6 },
+      { "name": "Drama Performance", "durationMinutes": 9 },
+      { "name": "Closing Ceremony", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Script Selection",
+      "Team Practice",
+      "Stage Preparation",
+      "Drama Performance",
+      "Closing Ceremony"
+    ]
+  },
+  {
+    "levelId": "lpo_20",
+    "topic": "Art Exhibition",
+    "objectives": "Organize an art exhibition for students.",
+    "activities": [
+      { "name": "Artwork Collection", "durationMinutes": 6 },
+      { "name": "Gallery Setup", "durationMinutes": 7 },
+      { "name": "Event Inauguration", "durationMinutes": 6 },
+      { "name": "Visitor Interaction", "durationMinutes": 8 },
+      { "name": "Closing", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Artwork Collection",
+      "Gallery Setup",
+      "Event Inauguration",
+      "Visitor Interaction",
+      "Closing"
+    ]
+  },
+  {
+    "levelId": "lpo_21",
+    "topic": "Quiz Competition",
+    "objectives": "Conduct a general knowledge quiz.",
+    "activities": [
+      { "name": "Registrations", "durationMinutes": 5 },
+      { "name": "Question Preparation", "durationMinutes": 6 },
+      { "name": "Quiz Rounds", "durationMinutes": 9 },
+      { "name": "Scoring & Results", "durationMinutes": 6 },
+      { "name": "Prize Distribution", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Registrations",
+      "Question Preparation",
+      "Quiz Rounds",
+      "Scoring & Results",
+      "Prize Distribution"
+    ]
+  },
+  {
+    "levelId": "lpo_22",
+    "topic": "Photography Contest",
+    "objectives": "Plan and organize a photo contest.",
+    "activities": [
+      { "name": "Theme Announcement", "durationMinutes": 5 },
+      { "name": "Photo Submissions", "durationMinutes": 7 },
+      { "name": "Shortlisting", "durationMinutes": 6 },
+      { "name": "Exhibition", "durationMinutes": 8 },
+      { "name": "Result Announcement", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Theme Announcement",
+      "Photo Submissions",
+      "Shortlisting",
+      "Exhibition",
+      "Result Announcement"
+    ]
+  },
+  {
+    "levelId": "lpo_23",
+    "topic": "Debate Competition",
+    "objectives": "Organize a debate competition with fairness.",
+    "activities": [
+      { "name": "Topic Announcement", "durationMinutes": 5 },
+      { "name": "Team Registrations", "durationMinutes": 6 },
+      { "name": "Debate Rounds", "durationMinutes": 9 },
+      { "name": "Judging", "durationMinutes": 7 },
+      { "name": "Prize Ceremony", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Topic Announcement",
+      "Team Registrations",
+      "Debate Rounds",
+      "Judging",
+      "Prize Ceremony"
+    ]
+  },
+  {
+    "levelId": "lpo_24",
+    "topic": "Cultural Festival",
+    "objectives": "Organize a mix of cultural activities.",
+    "activities": [
+      { "name": "Event Planning", "durationMinutes": 5 },
+      { "name": "Registrations", "durationMinutes": 6 },
+      { "name": "Cultural Performances", "durationMinutes": 9 },
+      { "name": "Stalls & Food", "durationMinutes": 7 },
+      { "name": "Closing Show", "durationMinutes": 6 }
+    ],
+    "correctOrder": [
+      "Event Planning",
+      "Registrations",
+      "Cultural Performances",
+      "Stalls & Food",
+      "Closing Show"
+    ]
+  },
+  {
+    "levelId": "lpo_25",
+    "topic": "Treasure Hunt",
+    "objectives": "Plan a treasure hunt game.",
+    "activities": [
+      { "name": "Clue Preparation", "durationMinutes": 5 },
+      { "name": "Team Formation", "durationMinutes": 6 },
+      { "name": "Hiding Clues", "durationMinutes": 7 },
+      { "name": "Game Execution", "durationMinutes": 9 },
+      { "name": "Winner Declaration", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Clue Preparation",
+      "Team Formation",
+      "Hiding Clues",
+      "Game Execution",
+      "Winner Declaration"
+    ]
+  },
+  {
+    "levelId": "lpo_26",
+    "topic": "Coding Contest",
+    "objectives": "Conduct a competitive coding contest.",
+    "activities": [
+      { "name": "Problem Release", "durationMinutes": 5 },
+      { "name": "Team/Individual Registration", "durationMinutes": 6 },
+      { "name": "Coding Round", "durationMinutes": 10 },
+      { "name": "Evaluation", "durationMinutes": 7 },
+      { "name": "Result Announcement", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Problem Release",
+      "Team/Individual Registration",
+      "Coding Round",
+      "Evaluation",
+      "Result Announcement"
+    ]
+  },
+  {
+    "levelId": "lpo_27",
+    "topic": "Alumni Meet",
+    "objectives": "Plan and organize an alumni meet.",
+    "activities": [
+      { "name": "Inviting Alumni", "durationMinutes": 6 },
+      { "name": "Venue Setup", "durationMinutes": 7 },
+      { "name": "Welcome Speech", "durationMinutes": 5 },
+      { "name": "Interaction & Performances", "durationMinutes": 9 },
+      { "name": "Closing Ceremony", "durationMinutes": 6 }
+    ],
+    "correctOrder": [
+      "Inviting Alumni",
+      "Venue Setup",
+      "Welcome Speech",
+      "Interaction & Performances",
+      "Closing Ceremony"
+    ]
+  },
+  {
+    "levelId": "lpo_28",
+    "topic": "Workshop",
+    "objectives": "Organize a skill-development workshop.",
+    "activities": [
+      { "name": "Topic Finalization", "durationMinutes": 5 },
+      { "name": "Resource Person Invitation", "durationMinutes": 6 },
+      { "name": "Material Preparation", "durationMinutes": 7 },
+      { "name": "Workshop Session", "durationMinutes": 9 },
+      { "name": "Feedback Collection", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Topic Finalization",
+      "Resource Person Invitation",
+      "Material Preparation",
+      "Workshop Session",
+      "Feedback Collection"
+    ]
+  },
+  {
+    "levelId": "lpo_29",
+    "topic": "Film Screening",
+    "objectives": "Plan a public film screening.",
+    "activities": [
+      { "name": "Movie Selection", "durationMinutes": 5 },
+      { "name": "Permissions & License", "durationMinutes": 6 },
+      { "name": "Venue Setup", "durationMinutes": 7 },
+      { "name": "Screening", "durationMinutes": 10 },
+      { "name": "Discussion & Wrap-up", "durationMinutes": 5 }
+    ],
+    "correctOrder": [
+      "Movie Selection",
+      "Permissions & License",
+      "Venue Setup",
+      "Screening",
+      "Discussion & Wrap-up"
+    ]
+  },
+  {
+    "levelId": "lpo_30",
+    "topic": "Marathon",
+    "objectives": "Plan and organize a community marathon.",
+    "activities": [
+      { "name": "Route Planning", "durationMinutes": 6 },
+      { "name": "Registrations", "durationMinutes": 7 },
+      { "name": "Medical & Safety Setup", "durationMinutes": 8 },
+      { "name": "Marathon Execution", "durationMinutes": 12 },
+      { "name": "Prize Distribution", "durationMinutes": 6 }
+    ],
+    "correctOrder": [
+      "Route Planning",
+      "Registrations",
+      "Medical & Safety Setup",
+      "Marathon Execution",
+      "Prize Distribution"
+    ]
+  }
+]

@@ -1,0 +1,68 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nextstep">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name=".NextStepApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.NextStep">
+
+        <!-- Launcher activity, exported for system -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Other activities, not exported -->
+        <activity android:name=".PlayOnlineActivity" android:exported="false" />
+        <activity android:name=".ResultsActivity" android:exported="false" />
+        <activity android:name=".CAREActivity" android:exported="false" />
+        <activity android:name=".CodeDebuggerActivity" android:exported="false" />
+        <activity android:name=".ColorPaletteMixerActivity" android:exported="false" />
+        <activity android:name=".EmpathyResponseActivity" android:exported="false" />
+        <activity android:name=".FactCheckerActivity" android:exported="false" />
+        <activity android:name=".GameActivity" android:exported="false" />
+        <activity android:name=".HeadlineHuddleActivity" android:exported="false" />
+        <activity android:name=".HelpFaqActivity" android:exported="false" />
+        <activity android:name=".HomeDashboardActivity" android:exported="false" />
+        <activity android:name=".LessonPlanOrganizerActivity" android:exported="false" />
+        <activity android:name=".MarketPredictorActivity" android:exported="false" />
+        <activity android:name=".MiniGameActivity" android:exported="false" />
+        <activity android:name=".MiniGamesListActivity" android:exported="false" />
+        <activity android:name=".MultiplayerActivity" android:exported="false" />
+        <activity android:name=".MyProgressActivity" android:exported="false" />
+        <activity android:name=".PersonalityCardActivity" android:exported="false" />
+        <activity android:name=".PersonalityResultActivity" android:exported="false" />
+        <activity android:name=".ProfileCreationActivity" android:exported="false" />
+        <activity android:name=".ReportIssuesActivity" android:exported="false" />
+        <activity android:name=".ResourceBalancerActivity" android:exported="false" />
+        <activity android:name=".SettingsActivity" android:exported="false" />
+        <activity android:name=".SloganMatcherActivity" android:exported="false" />
+        <activity android:name=".SplashActivity" android:exported="false" />
+        <activity android:name=".SymptomMatcherActivity" android:exported="false" />
+        <activity android:name=".ThreatIdentifierActivity" android:exported="false" />
+        <activity android:name="AboutAppActivity" android:exported="false" />
+        <activity android:name="PrivacyPolicyActivity" android:exported="false" />
+        <!-- FileProvider, not exported -->
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.example.nextstep.provider"
+            android:exported="false"
+            android:grantUriPermissions="true"
+            android:resource="@xml/file_paths" />
+
+    </application>
+</manifest>

@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_desc">Menu</string>
+    <string name="settings_desc">Settings</string>
+    <string name="notifications_on_off">Settings</string>
+    <string name="submit_order">Submit order</string>
+    <string name="submit">Submit order</string>
+    <string name="toggle_layout">Toggle layout</string>
+
+    <string name="select_issue_type">Submit order</string>
+
+    <string name="correct_answer">Correct!</string>
+    <string name="wrong_answer">Wrong!</string>
+    <string name="final_score_message">Your Score: %1$d</string>
+
+
+    <string name="privacy_policy_text">
+Welcome to NextStep. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you use our mobile application.
+
+1. Information We Collect
+We collect personal information you provide directly, such as your name, age, and avatar. We also collect usage data to improve your experience.
+
+2. Use of Information
+Your information is used to personalize your experience, provide app features, and improve app functionality.
+
+3. Sharing of Information
+We do not sell your personal information. We may share data with trusted third parties to provide services, comply with legal obligations, or protect rights.
+
+4. Data Security
+We implement reasonable safeguards to protect your information from unauthorized access or disclosure.
+
+5. Your Choices and Rights
+You can update or delete your data in your profile settings. You can opt out of notifications and data sharing in app settings.
+
+6. Changes to This Policy
+We may update this Privacy Policy periodically. We will notify you of any substantial changes within the app.
+
+7. Contact Us
+For privacy-related questions, contact us at privacy@nextstep.com.
+
+Thank you for trusting NextStep!
+</string>
+
+    <string name="generic_bug_explanation">This is a generic bug explanation.</string>
+    <string name="data_not_loaded">Challenges could not be loaded.</string>
+    <string name="score_label">Score: %1$d</string>
+    <string name="timer_label">Time left: %1$d s</string>
+    <string name="correct_plus_10">Correct! +10 points</string>
+    <string name="incorrect_with_reason">Incorrect! %1$s</string>
+    <string name="game_over_score">Game Over! Final Score: %1$d</string>
+    <string name="start_game">Start Game</string>
+    <string name="play_again">Play Again</string>
+    <string name="back_to_dashboard">Back to Dashboard</string>
+    <string name="app_name">NextStep</string>
+    <string name="nav_header_title">Welcome to NextStep!</string>
+    <string name="nav_header_subtitle">Your Journey to Self-Discovery</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="timer_placeholder">Time: 30s</string>
+    <string name="score_placeholder">Score: %1$d</string>
+        <string name="resource_requirements">Resource Requirements</string>
+        <string name="check_balance">Check Balance</string>
+        <!-- Add any other strings you use -->
+
+    <string name="challenge_description_placeholder">[Challenge Description]</string>
+    <string name="buggy_code_placeholder">[Buggy Code Snippet]</string>
+    <string name="choose_correct_fix">Choose the correct fix:</string>
+    <string name="timer_40s_placeholder">Time: 40s</string>
+    <string name="palette_challenge_description">[Palette Challenge Description]</string>
+    <string name="base_colors">Base Colors:</string>
+    <string name="choose_best_matching_palette">Choose the best matching palette:</string>
+    <!-- Empathy Response Activity -->
+    <string name="empathy_scenario_placeholder">[Empathy Scenario]</string>
+    <string name="choose_most_empathetic_response">Choose the most empathetic response:</string>
+
+    <!-- Fact Checker Activity -->
+    <string name="fact_statement_placeholder">[Fact Statement]</string>
+    <string name="is_this_fact_or_fiction">Is this fact or fiction?</string>
+    <string name="fact_button">FACT</string>
+    <string name="fiction_button">FICTION</string>
+
+    <!-- Game Activity (Find Yourself Quiz) -->
+    <string name="find_yourself_quiz_title">Find Yourself Quiz</string>
+    <string name="question_progress_placeholder">Question 1 of 20</string>
+    <string name="question_placeholder">Loading question...</string>
+    <string name="previous_button">Previous</string>
+    <string name="next_button">Next</string>
+
+
+    <!-- Common Game Strings -->
+
+    <string name="feedback_correct">Correct! +%d points.</string>
+    <string name="feedback_incorrect">Incorrect.</string>
+
+    <!-- Game Instructions -->
+    <string name="game_instructions_placeholder">[Game Instructions Here]</string>
+    <string name="challenge_title_placeholder">[Challenge Title]</string>
+
+    <!-- Headline Huddle Activity -->
+    <string name="article_summary_placeholder">[Article Summary]</string>
+    <string name="choose_best_headline">Choose the best headline:</string>
+
+    <!-- Help FAQ Activity -->
+    <!-- Multiplayer Activity -->
+    <string name="multiplayer_title">Multiplayer</string>
+    <string name="create_or_join_room">Create or Join a Game Room</string>
+    <string name="create_room_button">Create Room</string>
+    <string name="enter_room_code_hint">Enter Room Code</string>
+    <string name="join_room_button">Join Room</string>
+    <string name="players_in_room">Players in Room</string>
+    <string name="start_multiplayer_game">Start Multiplayer Game</string>
+
+    <!-- My Progress Activity -->
+    <string name="my_progress_title">My Progress</string>
+    <string name="overall_statistics">Overall Statistics</string>
+    <string name="total_games_placeholder">0</string>
+    <string name="games_played_label">Games Played</string>
+    <string name="best_score_placeholder">0</string>
+    <string name="best_score_label">Best Score</string>
+    <string name="game_progress_title">Game Progress</string>
+    <string name="achievements_title">Achievements</string>
+
+    <!-- Pattern Finder Activity -->
+    <string name="pattern_sequence">Pattern Sequence:</string>
+    <string name="what_comes_next">What comes next?</string>
+    <!-- Personality Card Activity -->
+    <string name="personality_card_title">Personality Card</string>
+    <string name="user_name_placeholder">Your Name</string>
+    <string name="personality_type_placeholder">Your Personality Type</string>
+    <string name="personality_description_placeholder">Personality description will appear here...</string>
+    <string name="personality_traits_title">Your Key Traits</string>
+    <string name="share_personality_card">Share Personality Card</string>
+
+    <!-- Personality Result Activity -->
+    <string name="quiz_results_title">Quiz Results</string>
+    <string name="congratulations_message">Congratulations!</string>
+    <string name="your_personality_type">Your Personality Type is:</string>
+    <string name="personality_result_placeholder">Loading...</string>
+    <string name="result_description_placeholder">Result description will appear here...</string>
+    <string name="view_personality_card">View Personality Card</string>
+    <string name="retake_quiz_button">Retake Quiz</string>
+    <string name="back_to_home">Back to Home</string>
+
+    <!-- Profile Creation Activity -->
+    <!-- Threat Identifier Activity -->
+    <string name="threat_scenario_placeholder">[Threat Scenario Description]</string>
+    <string name="identify_primary_threat">Identify the primary threat:</string>
+
+    <!-- App Bar Main -->
+    <string name="fab_desc">Floating Action Button</string>
+
+    <!-- Content About App -->
+    <string name="app_version">Version 1.0.0</string>
+    <string name="about_app_description">NextStep is your comprehensive companion for personal growth and self-discovery. Through interactive quizzes, engaging mini-games, and personalized insights, we help you understand yourself better and take the next step in your journey.</string>
+    <string name="features_title">Key Features:</string>
+    <string name="features_list">• Personality Assessment Quizzes\n• Interactive Mini-Games\n• Career Guidance with C.A.R.E. AI\n• Progress Tracking\n• Multilingual Support\n• Personalized Recommendations</string>
+    <string name="developer_info">Developed with ❤️ for personal growth</string>
+    <string name="copyright_text">© 2025 NextStep. All rights reserved.</string>
+
+    <!-- Content Main -->
+    <string name="main_welcome_message">Welcome to NextStep!</string>
+    <string name="main_subtitle">Your journey to self-discovery starts here</string>
+    <string name="get_started_button">Get Started</string>
+
+    <!-- Dialog Avatar Picker -->
+    <string name="choose_avatar_title">Choose Your Avatar</string>
+    <string name="avatar_selection_instruction">Tap an avatar to select it</string>
+    <!-- Color Palette Challenge Item -->
+    <string name="color_challenge_title">Color Palette Challenge</string>
+    <string name="difficulty_placeholder">Medium</string>
+    <string name="color_challenge_description">Mix and match colors to create the perfect palette</string>
+
+    <!-- Code Challenge Item -->
+    <string name="code_challenge_title">Debug the Code</string>
+    <string name="programming_language_placeholder">JavaScript</string>
+    <string name="code_preview_placeholder">function example() {\n  // Code preview...\n}</string>
+    <string name="bugs_to_find_placeholder">Find 3 bugs in this code</string>
+
+    <!-- Career Card Item -->
+    <string name="career_icon_desc">Career Icon</string>
+    <string name="career_title_placeholder">Software Developer</string>
+    <string name="career_description_placeholder">Create applications and solve technical problems</string>
+    <string name="match_label">Match:</string>
+    <string name="match_percentage_placeholder">85%</string>
+
+    <!-- FAQ Item -->
+    <string name="faq_question_placeholder">How do I reset my progress?</string>
+    <string name="expand_faq_desc">Expand FAQ</string>
+    <string name="faq_answer_placeholder">You can reset your progress in Settings under Reset Progress section.</string>
+    <string name="faq_category_placeholder">General</string>
+    <!-- Empathy Scenario Item -->
+    <string name="empathy_scenario_title_item">Empathy Challenge</string>
+    <string name="empathy_scenario_description_placeholder">A challenging social situation requiring empathy</string>
+    <string name="empathy_level_label">Empathy Level:</string>
+    <string name="empathy_level_placeholder">Advanced</string>
+
+    <!-- Fact Check Challenge Item -->
+    <string name="fact_check_title_item">Fact or Fiction?</string>
+    <string name="fact_statement_item_placeholder">Statement to verify for accuracy</string>
+    <string name="fact_category_placeholder">Science</string>
+    <string name="fact_or_fiction_label">Fact or Fiction?</string>
+
+    <!-- Headline Challenge Item -->
+    <string name="headline_challenge_title_item">Create the Perfect Headline</string>
+    <string name="article_summary_item_placeholder">Article summary for headline creation</string>
+    <string name="headline_topic_placeholder">Technology</string>
+    <string name="word_count_placeholder">150 words</string>
+
+    <!-- Lesson Plan Challenge Item -->
+    <string name="lesson_plan_title_item">Organize Lesson Plan</string>
+    <string name="lesson_subject_placeholder">Mathematics - Algebra</string>
+    <string name="activities_count_placeholder">Organize 5 activities in correct sequence</string>
+    <string name="lesson_duration_placeholder">45 min</string>
+    <string name="grade_level_placeholder">Grade 8</string>
+
+    <!-- Market Scenario Item -->
+    <string name="market_scenario_title_item">Market Analysis Challenge</string>
+    <string name="market_description_placeholder">Complex market scenario requiring prediction</string>
+    <string name="market_type_placeholder">Stock Market</string>
+    <string name="market_volatility_placeholder">High Volatility</string>
+    <!-- Market Scenario Card -->
+    <string name="market_scenario_card_title">Market Analysis</string>
+    <string name="market_description_card_placeholder">Complex market situation requiring analysis</string>
+    <string name="market_type_card_placeholder">Stock Market</string>
+    <string name="market_volatility_card_placeholder">High Volatility</string>
+
+    <!-- Mini Game Card -->
+    <string name="mini_game_icon_desc">Mini Game Icon</string>
+    <string name="mini_game_title_placeholder">Pattern Finder</string>
+    <string name="mini_game_description_placeholder">Find patterns and predict the next sequence</string>
+    <string name="best_score_label_mini">Best:</string>
+    <string name="score_placeholder_mini">0</string>
+    <!-- Slogan Challenge Item -->
+    <string name="slogan_challenge_title">Brand Slogan Match</string>
+    <string name="company_name_card_placeholder">Company Name</string>
+    <string name="match_slogan_instruction">Match this company with its famous slogan</string>
+    <string name="industry_placeholder">Technology</string>
+    <string name="difficulty_level_placeholder">Medium</string>
+
+    <!-- Symptom Case Item -->
+    <string name="symptom_case_title">Medical Case Study</string>
+    <string name="patient_info_placeholder">Patient: 35-year-old male</string>
+    <string name="symptoms_present_label">Symptoms Present:</string>
+    <string name="symptoms_list_placeholder">Fever, headache, fatigue</string>
+    <string name="medical_specialty_placeholder">Cardiology</string>
+    <string name="urgency_level_placeholder">High Priority</string>
+
+    <!-- Threat Scenario Item -->
+    <string name="threat_scenario_card_title">Security Threat Analysis</string>
+    <string name="threat_description_placeholder">Analyze this security scenario and identify threats</string>
+    <string name="identify_threat_instruction">Identify the primary security threat</string>
+    <string name="threat_type_placeholder">Cyber Attack</string>
+    <string name="risk_level_placeholder">High Risk</string>
+
+    <!-- Pattern Puzzle -->
+    <string name="pattern_puzzle_title">Pattern Recognition</string>
+    <string name="pattern_puzzle_description">Identify the pattern and predict what comes next</string>
+    <string name="pattern_type_placeholder">Sequence</string>
+    <string name="complexity_level_placeholder">Medium</string>
+
+    <!-- Resource Allocator Challenge -->
+    <string name="resource_allocator_title">Resource Management</string>
+    <string name="resource_allocator_description">Allocate limited resources to maximize outcomes</string>
+    <string name="resources_available_label">Available Resources:</string>
+    <string name="strategy_level_label">Strategy:</string>
+    <string name="strategy_level_placeholder">Advanced</string>
+
+    <!-- Resource Balancer Puzzle -->
+    <string name="resource_balancer_title">Balance Resources</string>
+    <string name="resource_balancer_description">Balance multiple resources to achieve optimal results</string>
+    <string name="balance_preview_label">Balance:</string>
+    <string name="balance_complexity_placeholder">Complex</string>
+
+    <!-- Dialog Confirmation -->
+    <string name="warning_icon_desc">Warning Icon</string>
+    <string name="confirmation_title">Are you sure?</string>
+    <string name="confirmation_message">This action cannot be undone. Do you want to continue?</string>
+
+    <string name="create_profile_subtitle">Let\'s create your profile to personalize your experience</string>
+    <string name="choose_avatar_label">Choose Your Avatar</string>
+    <string name="interests_label">What are your interests? (Optional)</string>
+    <string name="create_profile_button">Create Profile</string>
+
+    <!-- Report Issues Activity -->
+    <string name="report_issues_title">Report Issues</string>
+    <string name="issue_type_label">Issue Type</string>
+    <string name="issue_description_label">Describe the Issue</string>
+    <string name="issue_description_hint">Please describe the issue you encountered...</string>
+    <string name="steps_to_reproduce_label">Steps to Reproduce (Optional)</string>
+    <string name="steps_to_reproduce_hint">1. First I did...\n2. Then I...\n3. The issue occurred when...</string>
+    <string name="contact_email_label">Contact Email (Optional)</string>
+    <string name="contact_email_hint">your.email@example.com</string>
+    <string name="submit_report_button">Submit Report</string>
+    <!-- Resource Balancer Activity -->
+    <string name="balance_scenario_placeholder">[Balance Scenario]</string>
+    <string name="resource_requirements_label">Resource Requirements:</string>
+    <string name="check_balance_button">Check Balance</string>
+
+    <!-- Slogan Matcher Activity -->
+    <string name="company_name_placeholder">[Company Name]</string>
+    <string name="match_correct_slogan">Match the correct slogan:</string>
+
+    <!-- Splash Activity -->
+    <string name="app_tagline">Your Journey to Self-Discovery</string>
+    <string name="loading_message">Loading...</string>
+
+    <!-- Symptom Matcher Activity -->
+    <string name="patient_case_placeholder">[Patient Case Description]</string>
+    <string name="symptoms_list_label">Observed Symptoms:</string>
+    <string name="symptoms_placeholder">[List of Symptoms]</string>
+    <string name="diagnosis_question">What is your diagnosis?</string>
+
+    <!-- Resource Allocator Activity -->
+    <string name="resource_scenario_placeholder">[Resource Allocation Scenario]</string>
+    <string name="available_resources_label">Available Resources:</string>
+    <string name="allocation_strategy_label">Choose your allocation strategy:</string>
+    is_it_fact_or_fiction
+    <string name="is_it_fact_or_fiction">is_it_fact_or_fiction strategy:</string>
+
+
+    <string name="faq_categories_title">Frequently Asked Questions</string>
+    <string name="instructions_code_debugger">Tap \'Start Game\' to find bugs! Solve as many as you can in 30 seconds.</string>
+    <string name="instructions_color_palette_mixer">Mix and match colors to create the perfect palette! Tap \'Start Game\' to begin.</string>
+    <string name="instructions_empathy_response">Choose the most empathetic response! Tap \'Start Game\' to begin.</string>
+    <string name="instructions_fact_checker">Determine if the statement is a fact or fiction! Tap \'Start Game\' to begin.</string>
+    <string name="instructions_headline_huddle">Read the article summary and pick the best headline! Tap \'Start Game\' to begin.</string>
+    <string name="instructions_lesson_plan_organizer">Organize lesson plan activities in the correct sequence! Tap \'Start Game\' to begin.</string>
+    <string name="instructions_market_predictor">Analyze market data and predict the outcome! Tap \'Start Game\' to begin.</string>
+    <string name="instructions_pattern_finder">Identify the pattern and predict the next element! Tap \'Start Game\' to begin.</string>
+    <string name="instructions_resource_allocator">Allocate resources to maximize outcomes! Tap \'Start Game\' to begin.</string>
+    <string name="instructions_resource_balancer">Allocate resources wisely to complete tasks! Tap \'Start Game\' to begin.</string>
+    <string name="instructions_slogan_matcher">Match the company to its slogan! Tap \'Start Game\' to begin.</string>
+    <string name="instructions_symptom_matcher">Analyze symptoms and make a diagnosis! Tap \'Start Game\' to begin.</string>
+    <string name="instructions_threat_identifier">Identify potential threats in various scenarios! Tap \'Start Game\' to begin.</string>
+
+    <!-- Specific Feedback Messages -->    <string name="feedback_incorrect_code_debugger">Incorrect. The bug was: %s</string>
+    <string name="feedback_incorrect_empathy_response">Incorrect. The empathetic response was: %s</string>
+    <string name="feedback_incorrect_fact_checker">Incorrect. This was %s.</string>
+    <string name="feedback_incorrect_headline_huddle">Incorrect. The best headline was: %1$s.\nExplanation: %2$s</string>
+    <string name="feedback_incorrect_lesson_plan_organizer">Incorrect. The correct order was: %s</string>
+    <string name="feedback_incorrect_market_predictor">Incorrect. Correct: %1$s.\nExplanation: %2$s</string>
+    <string name="feedback_incorrect_pattern_finder">Incorrect. The correct answer was: %1$s.\nExplanation: %2$s</string> <!-- CORRECTED THIS LINE -->
+    <string name="feedback_incorrect_resource_allocator">Incorrect. The optimal strategy was: %1$s.\nExplanation: %2$s</string>
+    <string name="feedback_incorrect_resource_balancer">Incorrect. The correct allocation was: %s</string>
+    <string name="feedback_incorrect_slogan_matcher">Incorrect. The slogan for %1$s was: %2$s</string> <!-- Corrected to accept two args -->
+    <string name="feedback_incorrect_symptom_matcher">Incorrect. Correct diagnosis: %1$s.\nExplanation: %2$s</string>
+    <string name="feedback_incorrect_threat_identifier">Incorrect. The primary threat was: %1$s.\nExplanation: %2$s</string>
+    <string name="feedback_incorrect_color_palette_mixer">Incorrect. The target color was: %s</string>
+
+
+    <!-- Home Dashboard Strings -->
+    <string name="welcome_message_placeholder">Hello, Explorer!</string>
+    <string name="profile_summary_placeholder">Ready for your next step?</string>
+    <string name="find_yourself_button">Find Yourself</string>
+    <string name="mini_games_button">Mini Games</string>
+    <string name="play_with_friend_button">PLAY with FRIEND</string>
+    <string name="play_online_button">PLAY ONLINE</string>
+    <string name="know_me_card_button">KNOW ME CARD</string>
+    <string name="care_for_you_button">C.A.R.E for you</string>
+
+    <!-- Navigation Drawer Strings -->
+    <string name="navigation_menu_desc">Navigation Menu</string>
+    <string name="settings_button_desc">Settings</string>
+    <string name="app_logo_desc">NextStep App Logo</string>
+    <string name="app_slogan_placeholder">Your path to success</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_find_yourself">Find Yourself</string>
+    <string name="menu_mini_games">Mini Games</string>
+    <string name="menu_my_journey">My Journey</string>
+    <string name="menu_personalization">Personalization</string>
+    <string name="menu_profile">Profile</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_support">Support</string>
+    <string name="menu_report_issues">Report Issues</string>
+    <string name="menu_help_faq">Help &amp; FAQ</string>
+    <string name="menu_reset_progress">Reset My Progress</string>
+
+    <!-- Settings Screen Strings -->
+    <!-- Help FAQ Activity -->
+    <string name="help_faq_title">Help &amp; FAQ</string>
+    <string name="search_faq_hint">Search FAQ...</string>
+    <string name="search_button_desc">Search</string>
+    <string name="contact_support_button">Contact Support</string>
+
+    <!-- Lesson Plan Organizer Activity -->
+    <string name="lesson_description_placeholder">[Lesson Description]</string>
+    <string name="organize_activities_instruction">Drag and drop to organize activities:</string>
+
+    <!-- Market Predictor Activity -->
+    <string name="market_scenario_placeholder">[Market Scenario]</string>
+    <string name="predict_market_outcome">Predict the market outcome:</string>
+    <string name="welcome_to_nextstep">Welcome to NextStep</string>
+    <string name="create_your_profile">Create Your Profile</string>
+    <string name="pick_avatar">Pick an avatar above!</string>
+    <string name="create_profile">Create Profile</string>
+    <string name="avatar_1_desc">Avatar 1</string>
+    <string name="selected_avatar">Selected Avatar</string>
+    <string name="avatar_2_desc">Avatar 2</string>
+    <string name="avatar_3_desc">Avatar 3</string>
+    <string name="avatar_4_desc">Avatar 4</string>
+    <string name="avatar_5_desc">Avatar 5</string>
+    <string name="avatar_desc">Avatar Description</string>
+    <!-- Mini Games List Activity -->
+    <string name="mini_games_title">Mini Games</string>
+    <string name="choose_game_prompt">Choose a Game to Play!</string>
+
+    <!-- Common Strings -->
+    <string name="back_button_desc">Back</string>
+
+
+
+    <string name="settings_title">Settings</string>
+    <string name="profile_settings_title">Profile Settings</string>
+    <string name="full_name_label">Full Name</string>
+    <string name="full_name_hint">Enter your full name</string>
+    <string name="age_label">Age</string>
+    <string name="age_hint">Enter your age</string>
+    <string name="current_avatar_label">Current Avatar:</string>
+    <string name="change_avatar_button">Change Avatar</string>
+    <string name="save_profile_button">Save Profile</string>
+    <string name="notification_preferences_title">Notification</string>
+    <string name="daily_reminders_switch">Daily Reminders</string>
+    <string name="new_game_alerts_switch">New Game Alerts</string>
+    <string name="tips_quotes_switch">Tips &amp; Motivational Quotes</string>
+    <string name="save_notifications_button">Save Notifications</string>
+    <string name="language_settings_title">Language Settings</string>
+    <string name="language_english">English</string>
+    <string name="language_spanish">Spanish</string>
+    <string name="language_hindi">Hindi</string>
+    <string name="app_theme_sound_title">App Theme / Sound</string>
+    <string name="app_sound_effects_switch">App Sound Effects</string>
+    <string name="app_theme_label">App Theme</string>
+    <string name="theme_dark">Dark Theme</string>
+    <string name="theme_light">Light Theme</string>
+    <string name="privacy_security_title">Privacy &amp; Security</string>
+    <string name="view_privacy_policy_button">View Privacy Policy</string>
+    <string name="data_sharing_switch">Allow Data Sharing</string>
+    <string name="delete_account_button_text">Delete Account</string>
+    <string name="faq_button">FAQ</string>
+    <string name="report_bug_button">Report a Bug</string>
+    <string name="contact_us_button">Contact Us</string>
+    <string name="about_app_title">About the App</string>
+    <string name="about_the_app_button">About the App</string>
+    <string name="reset_progress_title">Reset Progress</string>
+    <string name="clear_scores_desc_long">Are you sure you want to clear all quiz and game scores? This action cannot be undone.</string>
+    <string name="clear_scores_button">Clear All Scores</string>
+    <string name="reset_trait_tracking_desc_long">Are you sure you want to reset all your personality trait tracking and start from scratch? This will clear all your progress and scores.</string>
+    <string name="reset_trait_tracking_button">Reset All Progress</string>
+    <string name="sign_out_button">Sign Out</string>
+    <string name="confirm_button">Confirm</string>
+    <string name="cancel_button">Cancel</string>
+
+    <string name="care_subtitle">Career Assistant &amp; Recommendation Engine</string>
+    <string name="get_new_advice_button">GET NEW ADVICE</string>
+    <string name="response_placeholder">Response...</string>
+    <string name="search_hint">Search</string>
+    <string name="voice_search_desc">Voice Search</string>
+    <string name="enter_button_desc">Enter</string>
+
+    <string-array name="issue_types">
+        <item>🐛 Bug/Crash</item>
+        <item>🎮 Game Issue</item>
+        <item>🔧 Feature Request</item>
+        <item>💾 Data Loss</item>
+        <item>🔗 Connection Problem</item>
+        <item>📱 UI/Design Issue</item>
+        <item>❓ Other</item>
+    </string-array>
+</resources>

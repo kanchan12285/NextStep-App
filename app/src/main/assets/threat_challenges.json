@@ -1,0 +1,284 @@
+[
+  {
+    "description": "You receive an email asking for your login credentials urgently.",
+    "threatOptions": ["Phishing Attack", "Malware", "DDoS", "Social Engineering"],
+    "correctThreat": "Phishing Attack",
+    "explanation": "Emails requesting sensitive info are classic phishing attempts."
+  },
+  {
+    "description": "A USB labeled 'Salary Info' is left in the parking lot.",
+    "threatOptions": ["Baiting", "Physical Intrusion", "Scanning", "Password Attack"],
+    "correctThreat": "Baiting",
+    "explanation": "Baiting uses curiosity to trick users into using malicious devices."
+  },
+  {
+    "description": "Website traffic spikes from multiple IPs, slowing services.",
+    "threatOptions": ["DDoS", "SQL Injection", "XSS", "MITM"],
+    "correctThreat": "DDoS",
+    "explanation": "High traffic from multiple sources causing downtime is a DDoS attack."
+  },
+  {
+    "description": "An unknown caller claims to be IT support requesting your password.",
+    "threatOptions": ["Vishing", "Smishing", "Pretexting", "Shoulder Surfing"],
+    "correctThreat": "Vishing",
+    "explanation": "Phone calls impersonating staff to steal credentials are vishing attacks."
+  },
+  {
+    "description": "Input fields allow database commands to be executed.",
+    "threatOptions": ["SQL Injection", "Buffer Overflow", "CSRF", "Session Hijacking"],
+    "correctThreat": "SQL Injection",
+    "explanation": "Poor input validation letting attackers run SQL commands is SQL injection."
+  },
+  {
+    "description": "Strangers enter office claiming to be delivery personnel and take photos.",
+    "threatOptions": ["Physical Breach", "Shoulder Surfing", "Tailgating", "Dumpster Diving"],
+    "correctThreat": "Physical Breach",
+    "explanation": "Unauthorized people in restricted areas constitute a physical breach."
+  },
+  {
+    "description": "Ads on trusted sites redirect users to harmful software downloads.",
+    "threatOptions": ["Malvertising", "Drive-by Download", "Clickjacking", "XSS"],
+    "correctThreat": "Malvertising",
+    "explanation": "Malicious ads redirecting users to harmful content is malvertising."
+  },
+  {
+    "description": "An email pretends to be from the CEO asking for a wire transfer.",
+    "threatOptions": ["Business Email Compromise", "Spear Phishing", "Whaling", "CEO Fraud"],
+    "correctThreat": "Business Email Compromise",
+    "explanation": "BEC targets businesses using spoofed executive emails for fraud."
+  },
+  {
+    "description": "Software monitors keystrokes and screenshots without consent.",
+    "threatOptions": ["Spyware", "Ransomware", "Trojan", "Rootkit"],
+    "correctThreat": "Spyware",
+    "explanation": "Monitoring tools installed secretly are spyware or keyloggers."
+  },
+  {
+    "description": "Company files are encrypted and a ransom is demanded in crypto.",
+    "threatOptions": ["Ransomware", "Data Breach", "Logic Bomb", "Wiper Malware"],
+    "correctThreat": "Ransomware",
+    "explanation": "Encrypting files and demanding payment is ransomware."
+  },
+  {
+    "description": "SMS asks you to click a link to verify account info.",
+    "threatOptions": ["Smishing", "Phishing", "Vishing", "MITM"],
+    "correctThreat": "Smishing",
+    "explanation": "Phishing via SMS is called smishing."
+  },
+  {
+    "description": "Someone observes your password entry over your shoulder.",
+    "threatOptions": ["Shoulder Surfing", "Phishing", "Vishing", "Pretexting"],
+    "correctThreat": "Shoulder Surfing",
+    "explanation": "Watching someone enter credentials is shoulder surfing."
+  },
+  {
+    "description": "Malware hides in system files to avoid detection.",
+    "threatOptions": ["Rootkit", "Spyware", "Ransomware", "Trojan"],
+    "correctThreat": "Rootkit",
+    "explanation": "Rootkits hide in system files to maintain control stealthily."
+  },
+  {
+    "description": "A program activates when a certain date occurs.",
+    "threatOptions": ["Logic Bomb", "Ransomware", "Trojan", "Spyware"],
+    "correctThreat": "Logic Bomb",
+    "explanation": "Code triggered by events like dates is a logic bomb."
+  },
+  {
+    "description": "An attacker intercepts communication between you and a website.",
+    "threatOptions": ["MITM", "Phishing", "DDoS", "Ransomware"],
+    "correctThreat": "MITM",
+    "explanation": "Man-in-the-middle attacks intercept and manipulate communications."
+  },
+  {
+    "description": "Random strangers dig through trash for confidential documents.",
+    "threatOptions": ["Dumpster Diving", "Tailgating", "Baiting", "Physical Breach"],
+    "correctThreat": "Dumpster Diving",
+    "explanation": "Attackers recover sensitive info from discarded materials."
+  },
+  {
+    "description": "Unauthorized person follows an employee into a restricted area.",
+    "threatOptions": ["Tailgating", "Shoulder Surfing", "Phishing", "Vishing"],
+    "correctThreat": "Tailgating",
+    "explanation": "Entering secure areas by following someone is tailgating."
+  },
+  {
+    "description": "A malicious email attachment installs hidden malware.",
+    "threatOptions": ["Trojan", "Ransomware", "Spyware", "DDoS"],
+    "correctThreat": "Trojan",
+    "explanation": "Malware disguised as legitimate software is a Trojan."
+  },
+  {
+    "description": "Hackers send repeated login attempts to guess passwords.",
+    "threatOptions": ["Brute Force", "Phishing", "MITM", "Smishing"],
+    "correctThreat": "Brute Force",
+    "explanation": "Guessing passwords through repeated attempts is brute force attack."
+  },
+  {
+    "description": "Website displays injected malicious scripts to other users.",
+    "threatOptions": ["Cross-Site Scripting", "SQL Injection", "MITM", "Ransomware"],
+    "correctThreat": "Cross-Site Scripting",
+    "explanation": "XSS allows attackers to inject scripts into web pages viewed by others."
+  },
+  {
+    "description": "A hacker scans the network for open ports and services.",
+    "threatOptions": ["Network Scanning", "Phishing", "DDoS", "Smishing"],
+    "correctThreat": "Network Scanning",
+    "explanation": "Scanning a network for vulnerabilities is network scanning."
+  },
+  {
+    "description": "Software encrypts your files silently and deletes itself afterward.",
+    "threatOptions": ["Wiper Malware", "Ransomware", "Trojan", "Logic Bomb"],
+    "correctThreat": "Wiper Malware",
+    "explanation": "Wiper malware destroys data instead of demanding ransom."
+  },
+  {
+    "description": "Hackers trick users into revealing personal info by posing as authority.",
+    "threatOptions": ["Pretexting", "Phishing", "Smishing", "Tailgating"],
+    "correctThreat": "Pretexting",
+    "explanation": "Attackers create fake scenarios to extract information."
+  },
+  {
+    "description": "Email targets a specific individual with tailored content.",
+    "threatOptions": ["Spear Phishing", "Phishing", "BEC", "Whaling"],
+    "correctThreat": "Spear Phishing",
+    "explanation": "Spear phishing attacks are personalized to the victim."
+  },
+  {
+    "description": "High-level executives are targeted with fake urgent emails.",
+    "threatOptions": ["Whaling", "Spear Phishing", "Phishing", "BEC"],
+    "correctThreat": "Whaling",
+    "explanation": "Whaling targets high-profile individuals with customized attacks."
+  },
+  {
+    "description": "Unauthorized script runs to redirect users or steal data.",
+    "threatOptions": ["Cross-Site Request Forgery", "XSS", "SQL Injection", "Trojan"],
+    "correctThreat": "CSRF",
+    "explanation": "CSRF forces users to execute unwanted actions on web apps."
+  },
+  {
+    "description": "Fake Wi-Fi hotspot used to intercept data.",
+    "threatOptions": ["Evil Twin Attack", "MITM", "Phishing", "DDoS"],
+    "correctThreat": "Evil Twin Attack",
+    "explanation": "Fake access points trick users into sending data through attackers."
+  },
+  {
+    "description": "A program installs malware on other computers when run.",
+    "threatOptions": ["Worm", "Virus", "Trojan", "Rootkit"],
+    "correctThreat": "Worm",
+    "explanation": "Worms self-replicate to infect other systems."
+  },
+  {
+    "description": "An attacker sends fake messages to manipulate users into transferring money.",
+    "threatOptions": ["Business Email Compromise", "Phishing", "Whaling", "Spear Phishing"],
+    "correctThreat": "Business Email Compromise",
+    "explanation": "BEC involves fraudulent emails requesting financial transactions."
+  },
+  {
+    "description": "Malicious website secretly collects data from users’ browsers.",
+    "threatOptions": ["Drive-by Download", "Malvertising", "Trojan", "Spyware"],
+    "correctThreat": "Drive-by Download",
+    "explanation": "Visiting a site can trigger automatic malware downloads."
+  },
+  {
+    "description": "Software takes control of your computer and locks it until payment.",
+    "threatOptions": ["Ransomware", "Trojan", "Spyware", "Logic Bomb"],
+    "correctThreat": "Ransomware",
+    "explanation": "Encrypting files and demanding payment is ransomware behavior."
+  },
+  {
+    "description": "Attackers inject malicious code into a website to alter its behavior.",
+    "threatOptions": ["XSS", "SQL Injection", "CSRF", "MITM"],
+    "correctThreat": "XSS",
+    "explanation": "XSS allows code execution in the victim's browser via a trusted site."
+  },
+  {
+    "description": "Fake software updates install malware.",
+    "threatOptions": ["Trojan", "Spyware", "Ransomware", "Worm"],
+    "correctThreat": "Trojan",
+    "explanation": "Trojan disguises malware as legitimate updates."
+  },
+  {
+    "description": "Repeated traffic overwhelms a server causing downtime.",
+    "threatOptions": ["DDoS", "SQL Injection", "MITM", "Malware"],
+    "correctThreat": "DDoS",
+    "explanation": "Distributed traffic overloads services causing disruption."
+  },
+  {
+    "description": "Logs reveal attempts to guess multiple user passwords rapidly.",
+    "threatOptions": ["Brute Force", "Phishing", "MITM", "Smishing"],
+    "correctThreat": "Brute Force",
+    "explanation": "Repeated login attempts are indicative of brute force attacks."
+  },
+  {
+    "description": "User is redirected from a normal site to a malicious one via an ad.",
+    "threatOptions": ["Malvertising", "Drive-by Download", "Trojan", "Spyware"],
+    "correctThreat": "Malvertising",
+    "explanation": "Ads on trusted sites redirecting users to malware is malvertising."
+  },
+  {
+    "description": "A hacker uses a fake identity to access confidential data.",
+    "threatOptions": ["Pretexting", "Phishing", "Tailgating", "Baiting"],
+    "correctThreat": "Pretexting",
+    "explanation": "Creating a false scenario to gain trust and access data is pretexting."
+  },
+  {
+    "description": "Multiple failed login attempts indicate automated hacking attempts.",
+    "threatOptions": ["Brute Force", "Phishing", "Ransomware", "Spyware"],
+    "correctThreat": "Brute Force",
+    "explanation": "Automation to guess passwords is brute force."
+  },
+  {
+    "description": "Cybercriminal gains access to data and threatens release unless paid.",
+    "threatOptions": ["Ransomware", "Data Breach", "Logic Bomb", "Trojan"],
+    "correctThreat": "Ransomware",
+    "explanation": "Encrypting files and extorting money is ransomware."
+  },
+  {
+    "description": "An attacker injects harmful SQL commands into a web form.",
+    "threatOptions": ["SQL Injection", "XSS", "CSRF", "Trojan"],
+    "correctThreat": "SQL Injection",
+    "explanation": "SQL injection manipulates database commands through input."
+  },
+  {
+    "description": "Email asks to reset password on a fake login page.",
+    "threatOptions": ["Phishing", "Smishing", "Vishing", "MITM"],
+    "correctThreat": "Phishing",
+    "explanation": "Fake login pages steal credentials via phishing emails."
+  },
+  {
+    "description": "User connects to a rogue Wi-Fi hotspot that intercepts data.",
+    "threatOptions": ["Evil Twin Attack", "MITM", "Phishing", "DDoS"],
+    "correctThreat": "Evil Twin Attack",
+    "explanation": "Fake Wi-Fi access points capture sensitive traffic."
+  },
+  {
+    "description": "An attacker tricks employees to plug in infected USBs.",
+    "threatOptions": ["Baiting", "Tailgating", "Pretexting", "Dumpster Diving"],
+    "correctThreat": "Baiting",
+    "explanation": "Curiosity is used to get victims to execute malware from USBs."
+  },
+  {
+    "description": "Malware spreads by copying itself to other machines automatically.",
+    "threatOptions": ["Worm", "Virus", "Trojan", "Rootkit"],
+    "correctThreat": "Worm",
+    "explanation": "Worms self-replicate to infect other systems."
+  },
+  {
+    "description": "Sensitive info is stolen by digging through office trash.",
+    "threatOptions": ["Dumpster Diving", "Tailgating", "Baiting", "Pretexting"],
+    "correctThreat": "Dumpster Diving",
+    "explanation": "Retrieving confidential info from trash is dumpster diving."
+  },
+  {
+    "description": "User credentials are intercepted over an unsecure network.",
+    "threatOptions": ["MITM", "Phishing", "DDoS", "Ransomware"],
+    "correctThreat": "MITM",
+    "explanation": "Intercepting communications is a man-in-the-middle attack."
+  },
+  {
+    "description": "An attacker manipulates users to perform actions unknowingly on a site.",
+    "threatOptions": ["CSRF", "XSS", "SQL Injection", "Trojan"],
+    "correctThreat": "CSRF",
+    "explanation": "CSRF exploits trust of a website in the user’s browser."
+  }
+]

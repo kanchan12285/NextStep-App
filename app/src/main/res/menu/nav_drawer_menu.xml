@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_find_yourself"
+            android:icon="@drawable/ic_menu_gamepad"
+            android:title="Find Yourself" />
+        <item
+            android:id="@+id/nav_mini_games"
+            android:icon="@drawable/ic_menu_gamepad"
+            android:title="Mini Games" />
+        <item
+            android:id="@+id/nav_my_journey"
+            android:icon="@drawable/ic_menu_journey"
+            android:title="My Journey" />
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_menu_home"
+            android:title="Profile" />
+    </group>
+
+    <item android:title="Settings &amp; Support">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_menu_home"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_report_issues"
+                android:icon="@drawable/ic_menu_home"
+                android:title="Report Issues" />
+            <item
+                android:id="@+id/nav_help_faq"
+                android:icon="@drawable/ic_menu_help"
+                android:title="Help &amp; FAQ" />
+            <item
+                android:id="@+id/nav_reset_progress"
+                android:icon="@drawable/ic_menu_home"
+                android:title="Reset My Progress" />
+        </menu>
+    </item>
+
+</menu>

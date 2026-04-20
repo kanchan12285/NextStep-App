@@ -1,0 +1,70 @@
+[
+  {
+    "id": "code_debugger",
+    "name": "Code Debugger",
+    "description": "Fix bugs in code snippets",
+    "backgroundColor": "#FF6B35"
+  },
+  {
+    "id": "slogan_matcher",
+    "name": "Slogan Matcher",
+    "description": "Match companies with their slogans",
+    "backgroundColor": "#F7931E"
+  },
+  {
+    "id": "market_predictor",
+    "name": "Market Predictor",
+    "description": "Predict market trends",
+    "backgroundColor": "#FFD23F"
+  },
+  {
+    "id": "headline_huddle",
+    "name": "Headline Huddle",
+    "description": "Choose the best headlines",
+    "backgroundColor": "#06FFA5"
+  },
+  {
+    "id": "symptom_matcher",
+    "name": "Symptom Matcher",
+    "description": "Match symptoms to conditions",
+    "backgroundColor": "#4ECDC4"
+  },
+  {
+    "id": "resource_balancer",
+    "name": "Resource Balancer",
+    "description": "Balance resources efficiently",
+    "backgroundColor": "#45B7D1"
+  },
+
+  {
+    "id": "empathy_response",
+    "name": "Empathy Response",
+    "description": "Choose empathetic responses",
+    "backgroundColor": "#FFEAA7"
+  },
+
+  {
+    "id": "color_palette_mixer",
+    "name": "Color Palette Mixer",
+    "description": "Create perfect color palettes",
+    "backgroundColor": "#98D8C8"
+  },
+  {
+    "id": "lesson_plan_organizer",
+    "name": "Lesson Plan Organizer",
+    "description": "Organize lesson activities",
+    "backgroundColor": "#F7DC6F"
+  },
+  {
+    "id": "threat_identifier",
+    "name": "Threat Identifier",
+    "description": "Identify security threats",
+    "backgroundColor": "#BB8FCE"
+  },
+  {
+    "id": "fact_checker",
+    "name": "Fact Checker",
+    "description": "Verify facts and claims",
+    "backgroundColor": "#85C1E9"
+  }
+]
