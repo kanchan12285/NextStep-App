@@ -95,7 +95,7 @@ class CAREActivity : BaseActivity() {
         showLoadingState()
         CoroutineScope(Dispatchers.IO).launch {
             try {
-                val apiKey = "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"
+                val apiKey = "YOUR_API_KEY"
                 val apiUrl = "https://openrouter.ai/api/v1/chat/completions"
                 val mediaType = "application/json".toMediaType()
                 val requestBody = gson.toJson(
