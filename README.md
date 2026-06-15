@@ -119,3 +119,40 @@ GitHub: github.com/kanchan12285
 
 License
 This project was developed as part of the Bachelor of Science in Computer Science curriculum and is intended for educational and learning purposes.
+
+Screenshorts for the app
+## Screenshots
+
+### Home Screen
+https://raw.githubusercontent.com/kanchan12285/NextStep-App/main/Screenshot%202026-06-15%20174357.png
+
+### Dashboard
+https://raw.githubusercontent.com/kanchan12285/NextStep-App/main/Screenshot%202026-06-15%20174404.png
+
+### Personality Card
+https://raw.githubusercontent.com/kanchan12285/NextStep-App/main/Screenshot%202026-06-15%20174415.png
+
+### CARE Assistant
+https://raw.githubusercontent.com/kanchan12285/NextStep-App/main/Screenshot%202026-06-15%20174419.png
+
+### Settings
+https://raw.githubusercontent.com/kanchan12285/NextStep-App/main/Screenshot%202026-06-15%20174425.png
+
+### Mini Games
+https://raw.githubusercontent.com/kanchan12285/NextStep-App/main/Screenshot%202026-06-15%20174429.png
+
+### Quiz Screen
+(https://raw.githubusercontent.com/kanchan12285/NextStep-App/main/Screenshot%202026-06-15%20174437.png
+
+### Multiplayer
+https://raw.githubusercontent.com/kanchan12285/NextStep-App/main/Screenshot%202026-06-15%20174443.png
+
+<img width="802" height="621" alt="image" src="https://github.com/user-attachments/assets/5e10c8de-97f0-4e6d-9c01-cea747c603c3" />
+<img width="802" height="621" alt="image" src="https://github.com/user-attachments/assets/87d07f16-45d0-4fc3-a61f-72aa7d97235a" />
+<img width="720" height="604" alt="image" src="https://github.com/user-attachments/assets/e59d469c-324c-4466-89cd-3e4875a2caf2" />
+<img width="753" height="625" alt="image" src="https://github.com/user-attachments/assets/07ba65ca-4f29-4f99-89ad-a80702d30207" />
+<img width="753" height="625" alt="image" src="https://github.com/user-attachments/assets/0975b70f-3ea0-4f87-b39f-2e4397394fb9" />
+<img width="706" height="598" alt="image" src="https://github.com/user-attachments/assets/b1b8a1d6-1006-4518-b98f-dd548e5e5bba" />
+<img width="786" height="676" alt="image" src="https://github.com/user-attachments/assets/7d16bf1f-01e0-4332-a406-4d15cbdf7aab" />
+<img width="792" height="666" alt="image" src="https://github.com/user-attachments/assets/ea091dcc-ab98-4966-92ab-de43cc0b199b" />
+<img width="786" height="676" alt="image" src="https://github.com/user-attachments/assets/a2d4c3a1-0a8e-4657-a4a5-1a4109f28b62" />
